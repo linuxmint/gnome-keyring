@@ -418,8 +418,11 @@ gkr_pam_client_run_operation (struct passwd *pwd, const char *control,
 	sigaction (SIGCHLD, &defchld, &oldchld);
 
 	res = lookup_daemon (pwd, control, &addr);
-	if (res != GKD_CONTROL_RESULT_OK)
+	if (res != GKD_CONTROL_RESULT_OK) {
+		sigaction (SIGCHLD, &oldchld, NULL);
+		sigaction (SIGPIPE, &oldpipe, NULL);
 		return res;
+	}
 
 	if (pwd->pw_uid == getuid () && pwd->pw_gid == getgid () && 
 	    pwd->pw_uid == geteuid () && pwd->pw_gid == getegid ()) {
