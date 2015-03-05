@@ -1,3 +1,9 @@
+gnome-keyring (3.14.0.2) betsy; urgency=medium
+
+  * Fixed libpam-gnome-keyring preventing MDM logins
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 05 Mar 2015 12:34:00 +0100
+
 gnome-keyring (3.14.0.1) unstable; urgency=medium
 
   * New upstream release.
