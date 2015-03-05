@@ -1,0 +1,576 @@
+# translation of gnome-keyring.HEAD.ne.po to Nepali
+# Nepali Translation Project.
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Shiva  Pokharel <pokharelshiva@hotmail.com>, 2005.
+# Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
+# Mahesh subedi <submanesh@hotmail.com>, 2006.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-keyring.HEAD.ne\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-keyring&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-09-18 06:59+0000\n"
+"PO-Revision-Date: 2014-09-22 05:06+0400\n"
+"Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
+"Language-Team: Nepali Translation Team <chautari@gmail.com>\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Nepali\n"
+"X-Poedit-Country: NEPAL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n !=1\n"
+
+#. TRANSLATORS: This is the label for an keyring created without a label
+#: ../daemon/dbus/gkd-secret-change.c:85
+#: ../daemon/dbus/gkd-secret-change.c:121
+#: ../daemon/dbus/gkd-secret-create.c:78
+#: ../pkcs11/secret-store/gkm-secret-collection.c:324
+#: ../pkcs11/wrap-layer/gkm-wrap-login.c:345
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:753
+msgid "Unnamed"
+msgstr "नामकरण नगरिएको"
+
+#: ../daemon/dbus/gkd-secret-change.c:90
+#, fuzzy, c-format
+msgid "Enter the old password for the '%s' keyring"
+msgstr "किरिङ '%s'को ताल्चा खोल्नका लागि पासवर्ड प्रविष्ट गर्नुहोस्"
+
+#: ../daemon/dbus/gkd-secret-change.c:94
+#, fuzzy, c-format
+msgid "An application wants to change the password for the '%s' keyring. Enter the old password for it."
+msgstr "अज्ञात अनुप्रयोगले '%s' किरिङका लागि पासवर्ड परिवर्तन गर्न चाहन् । तपाईँले यसका लागि प्र्रयोग गर्न चाहेको पासवर्ड रोज्नु पर्दछt."
+
+#: ../daemon/dbus/gkd-secret-change.c:100
+#: ../daemon/dbus/gkd-secret-change.c:136
+#: ../daemon/dbus/gkd-secret-change.c:147
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1143
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1255
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1290
+msgid "Continue"
+msgstr "जारी राख्नुहोस्"
+
+#: ../daemon/dbus/gkd-secret-change.c:126
+#, fuzzy, c-format
+msgid "Choose a new password for the '%s' keyring"
+msgstr "नयाँ किरिङका लागि पासवर्ड रोज्नुहोस्"
+
+#: ../daemon/dbus/gkd-secret-change.c:130
+#, fuzzy, c-format
+msgid "An application wants to change the password for the '%s' keyring. Choose the new password you want to use for it."
+msgstr "अज्ञात अनुप्रयोगले '%s' किरिङका लागि पासवर्ड परिवर्तन गर्न चाहन् । तपाईँले यसका लागि प्र्रयोग गर्न चाहेको पासवर्ड रोज्नु पर्दछt."
+
+#: ../daemon/dbus/gkd-secret-change.c:143
+#: ../daemon/dbus/gkd-secret-create.c:94
+#, fuzzy
+msgid "Store passwords unencrypted?"
+msgstr "क्यास गरिएको पासवर्डहरू कहाँ भण्डारण गर्ने ।"
+
+#: ../daemon/dbus/gkd-secret-change.c:145
+#: ../daemon/dbus/gkd-secret-create.c:96
+msgid "By choosing to use a blank password, your stored passwords will not be safely encrypted. They will be accessible by anyone with access to your files."
+msgstr ""
+
+#: ../daemon/dbus/gkd-secret-change.c:153
+#, fuzzy
+msgid "The original password was incorrect"
+msgstr "मुख्य पासवर्ड सफलतापूर्वक परिवर्तन गरियो ।"
+
+#: ../daemon/dbus/gkd-secret-change.c:354
+msgid "Change Keyring Password"
+msgstr "किरिङ पासवर्ड परिवर्तन गर्नुहोस्"
+
+#: ../daemon/dbus/gkd-secret-create.c:80
+#, fuzzy, c-format
+msgid "An application wants to create a new keyring called '%s'. Choose the password you want to use for it."
+msgstr "एउटा अज्ञात अनुप्रयोगले '%s' नामको एउटा नयाँ किरिङ सिर्जना गर्न चाहन्छ । तपाईँले यसका लागिप्रयोग गर्न चाहेको पासवर्ड रोज्नु पर्दछ ।"
+
+#: ../daemon/dbus/gkd-secret-create.c:84
+msgid "Choose password for new keyring"
+msgstr "नयाँ किरिङका लागि पासवर्ड रोज्नुहोस्"
+
+#: ../daemon/dbus/gkd-secret-create.c:311
+msgid "New Keyring Password"
+msgstr "नयाँ किरिङ पासवर्ड"
+
+#: ../daemon/gnome-keyring-gpg.desktop.in.in.h:1
+#, fuzzy
+msgid "GPG Password Agent"
+msgstr "सिहर्स-अभिकर्ता सुरु गर्नुहोस्"
+
+#: ../daemon/gnome-keyring-gpg.desktop.in.in.h:2
+#, fuzzy
+msgid "GNOME Keyring: GPG Agent"
+msgstr "जिनोम-किरिङ पहुँच गर्दा आन्तरीक त्रुटि"
+
+#: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:1
+#, fuzzy
+msgid "Certificate and Key Storage"
+msgstr "व्यक्तिगत कुञ्जी र हस्ताक्षर"
+
+#: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:2
+msgid "GNOME Keyring: PKCS#11 Component"
+msgstr ""
+
+#: ../daemon/gnome-keyring-secrets.desktop.in.in.h:1
+#, fuzzy
+msgid "Secret Storage Service"
+msgstr "स्वतIP सेवामा त्रुटि"
+
+#: ../daemon/gnome-keyring-secrets.desktop.in.in.h:2
+#, fuzzy
+msgid "GNOME Keyring: Secret Service"
+msgstr "जिनोम-किरिङ पहुँच गर्दा आन्तरीक त्रुटि"
+
+#: ../daemon/gnome-keyring-ssh.desktop.in.in.h:1
+#, fuzzy
+msgid "SSH Key Agent"
+msgstr "गुप्तिकरण कुञ्जी अभिकर्ता (सिहर्स)"
+
+#: ../daemon/gnome-keyring-ssh.desktop.in.in.h:2
+#, fuzzy
+msgid "GNOME Keyring: SSH Agent"
+msgstr "जिनोम-किरिङ पहुँच गर्दा आन्तरीक त्रुटि"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:105
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:202
+#, c-format
+msgid "PGP Key: %s"
+msgstr "पीजीपी कुञ्जी: %s"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:349
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:350
+msgid "Enter Passphrase"
+msgstr "पासफ्रेज प्रविष्ट गर्नुहोस्"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:354
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:602
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:630
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:645
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:721
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:767
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:799
+msgid "Unlock"
+msgstr "ताल्चा खोल्नुहोस्"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:383
+msgid "Automatically unlock this key, whenever I'm logged in"
+msgstr ""
+
+#. TRANSLATORS: This is the display label for the login keyring
+#: ../daemon/login/gkd-login.c:150
+msgid "Login"
+msgstr "लगइन"
+
+#: ../egg/dotlock.c:668
+#, fuzzy, c-format
+msgid "failed to create temporary file `%s': %s\n"
+msgstr "अस्थायी फाइल खोल्न असफल"
+
+#: ../egg/dotlock.c:718
+#, fuzzy, c-format
+msgid "error writing to `%s': %s\n"
+msgstr "'%s' मा लेख्दा त्रुटि: %s"
+
+#: ../egg/dotlock.c:782
+#, fuzzy, c-format
+msgid "can't create `%s': %s\n"
+msgstr "नयाँ छवि सिर्जना गर्नुहोस्"
+
+#. Note: It is unlikley that we get a race here unless a pid is
+#. reused too fast or a new process with the same pid as the one
+#. of the stale file tries to lock right at the same time as we.
+#: ../egg/dotlock.c:1048
+#, c-format
+msgid "removing stale lockfile (created by %d)\n"
+msgstr ""
+
+#: ../egg/dotlock.c:1084
+#, c-format
+msgid "waiting for lock (held by %d%s) %s...\n"
+msgstr ""
+
+#: ../egg/dotlock.c:1085
+msgid "(deadlock?) "
+msgstr ""
+
+#: ../egg/dotlock.c:1124
+#, fuzzy, c-format
+msgid "lock `%s' not made: %s\n"
+msgstr "ताल्चा लगाउन सकेन '%s'"
+
+#: ../egg/dotlock.c:1150
+#, fuzzy, c-format
+msgid "waiting for lock %s...\n"
+msgstr "प्रतिक्रियाका लागि पर्खिदैछ..."
+
+#: ../egg/egg-oid.c:40
+#, fuzzy
+msgid "Domain Component"
+msgstr "सङ्कुचित अवयव"
+
+#: ../egg/egg-oid.c:42
+msgid "User ID"
+msgstr "प्रयोगकर्ता आईडी"
+
+#: ../egg/egg-oid.c:45
+msgid "Email Address"
+msgstr "इमेल ठेगाना"
+
+#: ../egg/egg-oid.c:53
+msgid "Date of Birth"
+msgstr "जन्म मिति"
+
+#: ../egg/egg-oid.c:55
+msgid "Place of Birth"
+msgstr "जन्म स्थान"
+
+#: ../egg/egg-oid.c:57
+msgid "Gender"
+msgstr "लिङ्ग"
+
+#: ../egg/egg-oid.c:59
+msgid "Country of Citizenship"
+msgstr ""
+
+#: ../egg/egg-oid.c:61
+msgid "Country of Residence"
+msgstr ""
+
+#: ../egg/egg-oid.c:64
+msgid "Common Name"
+msgstr "साझा नाम"
+
+#: ../egg/egg-oid.c:66
+msgid "Surname"
+msgstr ""
+
+#: ../egg/egg-oid.c:68
+msgid "Serial Number"
+msgstr "क्रम सङ्ख्या"
+
+#: ../egg/egg-oid.c:70
+msgid "Country"
+msgstr "देश"
+
+#: ../egg/egg-oid.c:72
+msgid "Locality"
+msgstr "स्थानीयता"
+
+#: ../egg/egg-oid.c:74
+#, fuzzy
+msgid "State"
+msgstr "स्थिति"
+
+#: ../egg/egg-oid.c:76
+msgid "Street"
+msgstr "सडक"
+
+#: ../egg/egg-oid.c:78
+msgid "Organization"
+msgstr "सङ्गठन"
+
+#: ../egg/egg-oid.c:80
+msgid "Organizational Unit"
+msgstr "सङ्गठनात्मक एकाइ"
+
+#: ../egg/egg-oid.c:82
+msgid "Title"
+msgstr "शीर्षक"
+
+#: ../egg/egg-oid.c:84
+msgid "Telephone Number"
+msgstr "टेलिफोन नम्बर"
+
+#: ../egg/egg-oid.c:86
+msgid "Given Name"
+msgstr "दिइएको नाम"
+
+#: ../egg/egg-oid.c:88
+msgid "Initials"
+msgstr ""
+
+#: ../egg/egg-oid.c:90
+#, fuzzy
+msgid "Generation Qualifier"
+msgstr "निर्भरता सिर्जना"
+
+#: ../egg/egg-oid.c:92
+#, fuzzy
+msgid "DN Qualifier"
+msgstr "विशिष्ट नाम प्रयोग गर्दै (DN)"
+
+#: ../egg/egg-oid.c:94
+msgid "Pseudonym"
+msgstr ""
+
+#: ../egg/egg-oid.c:97
+msgid "RSA"
+msgstr "आरएसए"
+
+#: ../egg/egg-oid.c:98
+#, fuzzy
+msgid "MD2 with RSA"
+msgstr "RSA गुप्तीकरणसँग PKCS #1 MD2"
+
+#: ../egg/egg-oid.c:99
+#, fuzzy
+msgid "MD5 with RSA"
+msgstr "RSA गुप्तीकरणसँग PKCS #1 MD5"
+
+#: ../egg/egg-oid.c:100
+#, fuzzy
+msgid "SHA1 with RSA"
+msgstr "RSA गुप्तीकरणसँग PKCS #1 MD2"
+
+#: ../egg/egg-oid.c:102
+msgid "DSA"
+msgstr "डीएसए"
+
+#: ../egg/egg-oid.c:103
+#, fuzzy
+msgid "SHA1 with DSA"
+msgstr "डीएसए (हस्ताक्षर मात्र गर्नुहोस्)"
+
+#. Extended Key Usages
+#: ../egg/egg-oid.c:106
+msgid "Server Authentication"
+msgstr "सर्भरलाई प्रमाणीकरण"
+
+#: ../egg/egg-oid.c:107
+#, fuzzy
+msgid "Client Authentication"
+msgstr "प्रमाणीकरण असफल भयो"
+
+#: ../egg/egg-oid.c:108
+#, fuzzy
+msgid "Code Signing"
+msgstr "साइनिङ असफल भयो"
+
+#: ../egg/egg-oid.c:109
+#, fuzzy
+msgid "Email Protection"
+msgstr "इमेल ठेगाना:"
+
+#: ../egg/egg-oid.c:110
+#, fuzzy
+msgid "Time Stamping"
+msgstr "प्रदर्शन समय"
+
+#: ../egg/egg-spawn.c:272
+#, fuzzy, c-format
+msgid "Unexpected error in select() reading data from a child process (%s)"
+msgstr "शाखा प्रक्रिया (%s) बाट डेटा पढ्दा () चयनमा अनपेक्षित त्रुटि"
+
+#: ../egg/egg-spawn.c:319
+#, fuzzy, c-format
+msgid "Unexpected error in waitpid() (%s)"
+msgstr "waitpid() (%s) मा अनपेक्षित त्रुटि"
+
+#: ../pkcs11/gkm/gkm-certificate.c:580
+#, fuzzy
+msgid "Unnamed Certificate"
+msgstr "प्रमाणपत्र खारेज गरियो"
+
+#: ../pkcs11/ssh-store/gkm-ssh-private-key.c:341
+msgid "Couldn't parse public SSH key"
+msgstr ""
+
+#. Get the label ready
+#: ../pkcs11/wrap-layer/gkm-wrap-login.c:345
+#, fuzzy, c-format
+msgid "Unlock password for: %s"
+msgstr "%s का लागि पासवर्ड प्रविष्टि गर्नुहोस्"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:590
+#, fuzzy
+msgid "Unlock Login Keyring"
+msgstr "किरिङ पासवर्ड परिवर्तन गर्नुहोस्"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:592
+#, fuzzy
+msgid "Enter password to unlock your login keyring"
+msgstr "नयाँ किरिङका लागि पासवर्ड रोज्नुहोस्"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:596
+msgid "The password you use to log in to your computer no longer matches that of your login keyring."
+msgstr ""
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:598
+msgid "The login keyring did not get unlocked when you logged into your computer."
+msgstr ""
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:616
+msgid "Unlock Keyring"
+msgstr "किरिङको ताल्चा खोल्नुहोस्"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:618
+#, c-format
+msgid "Enter password for keyring '%s' to unlock"
+msgstr "किरिङ '%s'को ताल्चा खोल्नका लागि पासवर्ड प्रविष्ट गर्नुहोस्"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:622
+#, fuzzy, c-format
+msgid "An application wants access to the keyring '%s', but it is locked"
+msgstr "एउटा अज्ञात अनुप्रयोगले '%s' किरिङमा पहुँच प्राप्त गर्न चाहेको छ, तर यसलाई ताल्चा लगाइएको छ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:628
+msgid "Automatically unlock this keyring whenever I'm logged in"
+msgstr ""
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:639
+#, fuzzy
+msgid "Unlock private key"
+msgstr "निजी कुञ्जी फाइल:"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:641
+#, fuzzy
+msgid "Unlock certificate"
+msgstr "प्रमाणपत्र खारेज गरियो"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:643
+#, fuzzy
+msgid "Unlock public key"
+msgstr "सार्वजनिक कुञ्जी निर्यात गर्नुहोस्..."
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:654
+#, fuzzy
+msgid "Enter password to unlock the private key"
+msgstr "किरिङ '%s'को ताल्चा खोल्नका लागि पासवर्ड प्रविष्ट गर्नुहोस्"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:656
+#, fuzzy
+msgid "Enter password to unlock the certificate"
+msgstr "किरिङ '%s'को ताल्चा खोल्नका लागि पासवर्ड प्रविष्ट गर्नुहोस्"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:658
+#, fuzzy
+msgid "Enter password to unlock the public key"
+msgstr "किरिङ '%s'को ताल्चा खोल्नका लागि पासवर्ड प्रविष्ट गर्नुहोस्"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:660
+#, fuzzy
+msgid "Enter password to unlock"
+msgstr "किरिङ '%s'को ताल्चा खोल्नका लागि पासवर्ड प्रविष्ट गर्नुहोस्"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:670
+msgid "Automatically unlock this key whenever I'm logged in"
+msgstr ""
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:672
+msgid "Automatically unlock this certificate whenever I'm logged in"
+msgstr ""
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:674
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:796
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1140
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1288
+#, fuzzy
+msgid "Automatically unlock whenever I'm logged in"
+msgstr "लगइन गर्दा सधै पासफ्रेज सम्झनुहोस्"
+
+#. TRANSLATORS: The private key is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:685
+#, fuzzy, c-format
+msgid "An application wants access to the private key '%s', but it is locked"
+msgstr "एउटा अज्ञात अनुप्रयोगले '%s' किरिङमा पहुँच प्राप्त गर्न चाहेको छ, तर यसलाई ताल्चा लगाइएको छ"
+
+#. TRANSLATORS: The certificate is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:688
+#, fuzzy, c-format
+msgid "An application wants access to the certificate '%s', but it is locked"
+msgstr "एउटा अज्ञात अनुप्रयोगले '%s' किरिङमा पहुँच प्राप्त गर्न चाहेको छ, तर यसलाई ताल्चा लगाइएको छ"
+
+#. TRANSLATORS: The public key is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:691
+#, fuzzy, c-format
+msgid "An application wants access to the public key '%s', but it is locked"
+msgstr "एउटा अज्ञात अनुप्रयोगले '%s' किरिङमा पहुँच प्राप्त गर्न चाहेको छ, तर यसलाई ताल्चा लगाइएको छ"
+
+#. TRANSLATORS: The object '%s' is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:694
+#, fuzzy, c-format
+msgid "An application wants access to '%s', but it is locked"
+msgstr "एउटा अज्ञात अनुप्रयोगले '%s' किरिङमा पहुँच प्राप्त गर्न चाहेको छ, तर यसलाई ताल्चा लगाइएको छ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:765
+#, fuzzy
+msgid "The unlock password was incorrect"
+msgstr "मुख्य पासवर्ड सफलतापूर्वक परिवर्तन गरियो ।"
+
+#. Build up the prompt
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:786
+#, fuzzy
+msgid "Unlock certificate/key storage"
+msgstr "प्रमाणपत्र अधिकार कुञ्जी पहिचायक"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:787
+msgid "Enter password to unlock the certificate/key storage"
+msgstr ""
+
+#. TRANSLATORS: The storage is locked, and needs unlocking before the application can use it.
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:790
+#, fuzzy, c-format
+msgid "An application wants access to the certificate/key storage '%s', but it is locked"
+msgstr "एउटा अज्ञात अनुप्रयोगले '%s' किरिङमा पहुँच प्राप्त गर्न चाहेको छ, तर यसलाई ताल्चा लगाइएको छ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1131
+#, fuzzy
+msgid "New Password Required"
+msgstr "नयाँ मुख्य पासवर्ड:"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1132
+msgid "New password required for secure storage"
+msgstr ""
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1134
+#, c-format
+msgid "In order to prepare '%s' for storage of certificates or keys, a password is required"
+msgstr ""
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1248
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1279
+msgid "Change Password"
+msgstr "पासवर्ड परिवर्तन गर्नुहोस् "
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1249
+#, fuzzy
+msgid "Original password for secure storage"
+msgstr "नयाँ किरिङका लागि पासवर्ड रोज्नुहोस्"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1251
+#, c-format
+msgid "To change the password for '%s', the original password is required"
+msgstr ""
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1280
+#, fuzzy
+msgid "Change password for secure storage"
+msgstr "विनिमय खाताका लागि पासवर्ड परिवर्तन गर्नुहोस्"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1282
+#, fuzzy, c-format
+msgid "Type a new password for '%s'"
+msgstr "नयाँ किरिङका लागि पासवर्ड रोज्नुहोस्"
+
+#: ../tool/gkr-tool.c:101
+#, fuzzy, c-format
+msgid "usage: gnome-keyring command [options]\n"
+msgstr "प्रयोग: debconf [options] command [args]"
+
+#: ../tool/gkr-tool.c:103
+msgid "commands: "
+msgstr "आदेशहरू:"
+
+#. Translators: keep same length as translated message "commands: "
+#: ../tool/gkr-tool.c:107
+msgid "          "
+msgstr ""
+

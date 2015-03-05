@@ -1,0 +1,631 @@
+# Dutch translation for gnome-keyring
+#
+# This file is distributed under the same license as the gnome-keyring package.
+#
+# Daniel van Eeden <daniel_e@dds.nl>, 2004, 2008.
+# Tino Meinen <a.t.meinen@chello.nl>, 2005.
+# Wouter Bolsterlee <wbolster@gnome.org>, 2006–2013.
+#
+# Keyring vertalen we als sleutelbos (Wouter Bolsterlee, Tino Meinen)
+#
+# ‘Secret service’ laat ik voorlopig even onvertaald (Wouter Bolsterlee)
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-keyring\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-19 22:29+0200\n"
+"PO-Revision-Date: 2013-04-19 22:30+0200\n"
+"Last-Translator: Wouter Bolsterlee <wbolster@gnome.org>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Launchpad-Export-Date: 2011-08-15 09:52+0000\n"
+"X-Generator: Launchpad (build 13674)\n"
+
+#. TRANSLATORS: This is the label for an keyring created without a label
+#: ../daemon/dbus/gkd-secret-change.c:86
+#: ../daemon/dbus/gkd-secret-change.c:122
+#: ../daemon/dbus/gkd-secret-create.c:79
+#: ../pkcs11/secret-store/gkm-secret-collection.c:325
+#: ../pkcs11/wrap-layer/gkm-wrap-login.c:346
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:754
+msgid "Unnamed"
+msgstr "Naamloos"
+
+#: ../daemon/dbus/gkd-secret-change.c:91
+#, c-format
+msgid "Enter the old password for the '%s' keyring"
+msgstr "Geef het oude wachtwoord voor de sleutelbos ‘%s’"
+
+#: ../daemon/dbus/gkd-secret-change.c:95
+#, c-format
+msgid ""
+"An application wants to change the password for the '%s' keyring. Enter the "
+"old password for it."
+msgstr ""
+"Een programma wil het wachtwoord voor de sleutelbos ‘%s’ wijzigen. Geef "
+"hiertoe eerste het oude wachtwoord."
+
+#: ../daemon/dbus/gkd-secret-change.c:101
+#: ../daemon/dbus/gkd-secret-change.c:137
+#: ../daemon/dbus/gkd-secret-change.c:148
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1144
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1256
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1291
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: ../daemon/dbus/gkd-secret-change.c:127
+#, c-format
+msgid "Choose a new password for the '%s' keyring"
+msgstr "Kies een nieuw wachtwoord voor de sleutelbos ‘%s’"
+
+#: ../daemon/dbus/gkd-secret-change.c:131
+#, c-format
+msgid ""
+"An application wants to change the password for the '%s' keyring. Choose the "
+"new password you want to use for it."
+msgstr ""
+"Een programma wil het wachtwoord voor de sleutelbos ‘%s’ wijzigen. U kunt "
+"het te gebruiken wachtwoord kiezen."
+
+#: ../daemon/dbus/gkd-secret-change.c:144
+#: ../daemon/dbus/gkd-secret-create.c:95
+msgid "Store passwords unencrypted?"
+msgstr "Wachtwoorden zonder versleuteling opslaan?"
+
+#: ../daemon/dbus/gkd-secret-change.c:146
+#: ../daemon/dbus/gkd-secret-create.c:97
+msgid ""
+"By choosing to use a blank password, your stored passwords will not be "
+"safely encrypted. They will be accessible by anyone with access to your "
+"files."
+msgstr ""
+"Door een leeg wachtwoord te gebruiken worden de opgeslagen wachtwoorden niet "
+"veilig bewaard. Iedereen met toegang tot uw bestanden kan deze wachtwoorden "
+"achterhalen."
+
+#: ../daemon/dbus/gkd-secret-change.c:154
+msgid "The original password was incorrect"
+msgstr "Het oorspronkelijke wachtwoord was onjuist"
+
+#: ../daemon/dbus/gkd-secret-change.c:355
+msgid "Change Keyring Password"
+msgstr "Wachtwoord van sleutelbos wijzigen"
+
+#: ../daemon/dbus/gkd-secret-create.c:81
+#, c-format
+msgid ""
+"An application wants to create a new keyring called '%s'. Choose the "
+"password you want to use for it."
+msgstr ""
+"Een programma wil een nieuwe sleutelbos met de naam ‘%s’ aanmaken. U kunt "
+"het te gebruiken wachtwoord kiezen."
+
+#: ../daemon/dbus/gkd-secret-create.c:85
+msgid "Choose password for new keyring"
+msgstr "Kies wachtwoord voor de nieuwe sleutelbos"
+
+#: ../daemon/dbus/gkd-secret-create.c:312
+msgid "New Keyring Password"
+msgstr "Nieuw wachtwoord voor sleutelbos"
+
+#: ../daemon/gnome-keyring-gpg.desktop.in.in.h:1
+msgid "GPG Password Agent"
+msgstr "GPG-wachtwoordagent"
+
+#: ../daemon/gnome-keyring-gpg.desktop.in.in.h:2
+msgid "GNOME Keyring: GPG Agent"
+msgstr "Gnome-sleutelbos: GPG-agent"
+
+#: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:1
+msgid "Certificate and Key Storage"
+msgstr "Certificaat- en sleutelopslag"
+
+#: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:2
+msgid "GNOME Keyring: PKCS#11 Component"
+msgstr "Sleutelbos-service: PKCS#11-component"
+
+# Onvertaald gelaten (Wouter Bolsterlee)
+#: ../daemon/gnome-keyring-secrets.desktop.in.in.h:1
+msgid "Secret Storage Service"
+msgstr "Secret Storage Service"
+
+#: ../daemon/gnome-keyring-secrets.desktop.in.in.h:2
+msgid "GNOME Keyring: Secret Service"
+msgstr "Sleutelbos-service: Secret Service"
+
+#: ../daemon/gnome-keyring-ssh.desktop.in.in.h:1
+msgid "SSH Key Agent"
+msgstr "SSH-sleutelagent"
+
+#: ../daemon/gnome-keyring-ssh.desktop.in.in.h:2
+msgid "GNOME Keyring: SSH Agent"
+msgstr "Sleutelbos-service: SSH-agent"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:106
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:203
+#, c-format
+msgid "PGP Key: %s"
+msgstr "PGP-sleutel: %s"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:350
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:351
+msgid "Enter Passphrase"
+msgstr "Voer wachtwoordzin in"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:355
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:603
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:631
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:646
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:722
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:768
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:800
+msgid "Unlock"
+msgstr "Ontgrendelen"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:384
+msgid "Automatically unlock this key, whenever I'm logged in"
+msgstr "Deze sleutel automatisch ontgrendelen bij inloggen"
+
+# Onvertaald gelaten (Wouter Bolsterlee)
+#. TRANSLATORS: This is the display label for the login keyring
+#: ../daemon/login/gkd-login.c:145
+msgid "Login"
+msgstr "Login"
+
+#: ../egg/dotlock.c:668
+#, c-format
+msgid "failed to create temporary file `%s': %s\n"
+msgstr "fout bij maken van tijdelijk bestand ‘%s’: %s\n"
+
+#: ../egg/dotlock.c:718
+#, c-format
+msgid "error writing to `%s': %s\n"
+msgstr "fout bij schrijven naar ‘%s’: %s\n"
+
+#: ../egg/dotlock.c:782
+#, c-format
+msgid "can't create `%s': %s\n"
+msgstr "kon ‘%s’ niet aanmaken: %s\n"
+
+#. Note: It is unlikley that we get a race here unless a pid is
+#. reused too fast or a new process with the same pid as the one
+#. of the stale file tries to lock right at the same time as we.
+#: ../egg/dotlock.c:1048
+#, c-format
+msgid "removing stale lockfile (created by %d)\n"
+msgstr "verouderde lockfile verwijderen (aangemaakt door %d)\n"
+
+#: ../egg/dotlock.c:1084
+#, c-format
+msgid "waiting for lock (held by %d%s) %s...\n"
+msgstr "wachten op lock (vastgehouden door %d%s) %s…\n"
+
+#: ../egg/dotlock.c:1085
+msgid "(deadlock?) "
+msgstr "(deadlock?) "
+
+#: ../egg/dotlock.c:1124
+#, c-format
+msgid "lock `%s' not made: %s\n"
+msgstr "lock ‘%s’ niet gemaakt: %s\n"
+
+#: ../egg/dotlock.c:1150
+#, c-format
+msgid "waiting for lock %s...\n"
+msgstr "wachten op lock %s…\n"
+
+#: ../egg/egg-oid.c:41
+msgid "Domain Component"
+msgstr "Domeincomponent"
+
+#: ../egg/egg-oid.c:43
+msgid "User ID"
+msgstr "Gebruikers-ID"
+
+#: ../egg/egg-oid.c:46
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: ../egg/egg-oid.c:54
+msgid "Date of Birth"
+msgstr "Geboortedatum"
+
+#: ../egg/egg-oid.c:56
+msgid "Place of Birth"
+msgstr "Geboorteplaats"
+
+#: ../egg/egg-oid.c:58
+msgid "Gender"
+msgstr "Geslacht"
+
+#: ../egg/egg-oid.c:60
+msgid "Country of Citizenship"
+msgstr "Nationaliteit"
+
+#: ../egg/egg-oid.c:62
+msgid "Country of Residence"
+msgstr "Verblijfplaats"
+
+#: ../egg/egg-oid.c:65
+msgid "Common Name"
+msgstr "Algemene naam"
+
+#: ../egg/egg-oid.c:67
+msgid "Surname"
+msgstr "Achternaam"
+
+#: ../egg/egg-oid.c:69
+msgid "Serial Number"
+msgstr "Serienummer"
+
+#: ../egg/egg-oid.c:71
+msgid "Country"
+msgstr "Land"
+
+#: ../egg/egg-oid.c:73
+msgid "Locality"
+msgstr "Gebied"
+
+#: ../egg/egg-oid.c:75
+msgid "State"
+msgstr "Staat"
+
+#: ../egg/egg-oid.c:77
+msgid "Street"
+msgstr "Straat"
+
+#: ../egg/egg-oid.c:79
+msgid "Organization"
+msgstr "Organisatie"
+
+#: ../egg/egg-oid.c:81
+msgid "Organizational Unit"
+msgstr "Organisatieonderdeel"
+
+#: ../egg/egg-oid.c:83
+msgid "Title"
+msgstr "Titel"
+
+#: ../egg/egg-oid.c:85
+msgid "Telephone Number"
+msgstr "Telefoonnummer"
+
+#: ../egg/egg-oid.c:87
+msgid "Given Name"
+msgstr "Voornaam"
+
+#: ../egg/egg-oid.c:89
+msgid "Initials"
+msgstr "Initialen"
+
+# Onvertaald gelaten (Wouter Bolsterlee)
+#: ../egg/egg-oid.c:91
+msgid "Generation Qualifier"
+msgstr "Generation Qualifier"
+
+# Onvertaald gelaten (Wouter Bolsterlee)
+#: ../egg/egg-oid.c:93
+msgid "DN Qualifier"
+msgstr "DN Qualifier"
+
+#: ../egg/egg-oid.c:95
+msgid "Pseudonym"
+msgstr "Pseudoniem"
+
+#: ../egg/egg-oid.c:98
+msgid "RSA"
+msgstr "RSA"
+
+#: ../egg/egg-oid.c:99
+msgid "MD2 with RSA"
+msgstr "MD2 met RSA"
+
+#: ../egg/egg-oid.c:100
+msgid "MD5 with RSA"
+msgstr "MD5 met RSA"
+
+#: ../egg/egg-oid.c:101
+msgid "SHA1 with RSA"
+msgstr "SHA1 met RSA"
+
+#: ../egg/egg-oid.c:103
+msgid "DSA"
+msgstr "DSA"
+
+#: ../egg/egg-oid.c:104
+msgid "SHA1 with DSA"
+msgstr "SHA1 met DSA"
+
+#. Extended Key Usages
+#: ../egg/egg-oid.c:107
+msgid "Server Authentication"
+msgstr "Server-authenticatie"
+
+#: ../egg/egg-oid.c:108
+msgid "Client Authentication"
+msgstr "Client-authenticatie"
+
+#: ../egg/egg-oid.c:109
+msgid "Code Signing"
+msgstr "Ondertekenen van code"
+
+#: ../egg/egg-oid.c:110
+msgid "Email Protection"
+msgstr "E-mailbeveiliging"
+
+#: ../egg/egg-oid.c:111
+msgid "Time Stamping"
+msgstr "Toevoegen van tijdstempel"
+
+#: ../egg/egg-spawn.c:273
+#, c-format
+msgid "Unexpected error in select() reading data from a child process (%s)"
+msgstr ""
+"Onverwachte fout bij select() tijdens het lezen van gegevens van een "
+"dochterproces: %s"
+
+#: ../egg/egg-spawn.c:320
+#, c-format
+msgid "Unexpected error in waitpid() (%s)"
+msgstr "Onverwachte fout in waitpid(): %s"
+
+#: ../pkcs11/gkm/gkm-certificate.c:581
+msgid "Unnamed Certificate"
+msgstr "Onbenoemd certificaat"
+
+#: ../pkcs11/ssh-store/gkm-ssh-private-key.c:342
+msgid "Couldn't parse public SSH key"
+msgstr "Kon de publieke sleutel voor Secure Shell niet verwerken"
+
+#. Get the label ready
+#: ../pkcs11/wrap-layer/gkm-wrap-login.c:346
+#, c-format
+msgid "Unlock password for: %s"
+msgstr "Wachtwoord voor ontgrendelen van ‘%s’"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:591
+msgid "Unlock Login Keyring"
+msgstr "Login-sleutelbos ontgrendelen"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:593
+msgid "Enter password to unlock your login keyring"
+msgstr "Voer wachtwoord in om de login-sleutelbos te ontgrendelen"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:597
+msgid ""
+"The password you use to log in to your computer no longer matches that of "
+"your login keyring."
+msgstr ""
+"Het wachtwoord dat u gebruikt om u aan te melden bij deze computer komt niet "
+"overeen met het wachtwoord van uw login-sleutelbos."
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:599
+msgid ""
+"The login keyring did not get unlocked when you logged into your computer."
+msgstr ""
+"Uw login-sleutelbos was niet automatisch ontgrendeld bij het aanmelden op "
+"deze computer."
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:617
+msgid "Unlock Keyring"
+msgstr "Sleutelbos ontgrendelen"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:619
+#, c-format
+msgid "Enter password for keyring '%s' to unlock"
+msgstr "Voer wachtwoord in voor het ontgrendelen van de sleutelbos ‘%s’"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:623
+#, c-format
+msgid "An application wants access to the keyring '%s', but it is locked"
+msgstr ""
+"Een programma wil toegang tot de sleutelbos ‘%s’, maar deze is vergrendeld."
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:629
+msgid "Automatically unlock this keyring whenever I'm logged in"
+msgstr "Deze sleutelbos automatisch ontgrendelen bij inloggen"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:640
+msgid "Unlock private key"
+msgstr "Privé-sleutel ontgrendelen"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:642
+msgid "Unlock certificate"
+msgstr "Certificaat ontgrendelen"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:644
+msgid "Unlock public key"
+msgstr "Publieke sleutel ontgrendelen"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:655
+msgid "Enter password to unlock the private key"
+msgstr "Voer uw wachtwoord in voor ontgrendelen van de privé-sleutel"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:657
+msgid "Enter password to unlock the certificate"
+msgstr "Voer uw wachtwoord in voor ontgrendelen van het certificaat"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:659
+msgid "Enter password to unlock the public key"
+msgstr "Voer wachtwoord in voor ontgrendelen van de publieke sleutel"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:661
+msgid "Enter password to unlock"
+msgstr "Voer wachtwoord in voor ontgrendelen"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:671
+msgid "Automatically unlock this key whenever I'm logged in"
+msgstr "Deze sleutel automatisch ontgrendelen bij inloggen"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:673
+msgid "Automatically unlock this certificate whenever I'm logged in"
+msgstr "Dit certificaat automatisch ontgrendelen bij inloggen"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:675
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:797
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1141
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1289
+msgid "Automatically unlock whenever I'm logged in"
+msgstr "Automatisch ontgrendelen bij inloggen"
+
+#. TRANSLATORS: The private key is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:686
+#, c-format
+msgid "An application wants access to the private key '%s', but it is locked"
+msgstr ""
+"Een programma wil toegang tot de sleutelbos ‘%s’, maar deze is gesloten"
+
+#. TRANSLATORS: The certificate is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:689
+#, c-format
+msgid "An application wants access to the certificate '%s', but it is locked"
+msgstr ""
+"Een programma wil toegang tot het certificaat ‘%s’, maar dit certificaat is "
+"gesloten"
+
+#. TRANSLATORS: The public key is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:692
+#, c-format
+msgid "An application wants access to the public key '%s', but it is locked"
+msgstr ""
+"Een programma wil toegang tot de publieke sleutel ‘%s’, maar deze is gesloten"
+
+#. TRANSLATORS: The object '%s' is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:695
+#, c-format
+msgid "An application wants access to '%s', but it is locked"
+msgstr "Een programma wil toegang tot ‘%s’, maar deze is gesloten"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:766
+msgid "The unlock password was incorrect"
+msgstr "Het wachtwoord was onjuist"
+
+#. Build up the prompt
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:787
+msgid "Unlock certificate/key storage"
+msgstr "Certificaat/sleutelopslag ontgrendelen"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:788
+msgid "Enter password to unlock the certificate/key storage"
+msgstr ""
+"Voer wachtwoord in voor ontgrendelen van het certificaat of de sleutelopslag"
+
+#. TRANSLATORS: The storage is locked, and needs unlocking before the application can use it.
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:791
+#, c-format
+msgid ""
+"An application wants access to the certificate/key storage '%s', but it is "
+"locked"
+msgstr ""
+"Een toepassing wil toegang tot het certificaat of de sleutelopslag ‘%s’, "
+"maar deze is gesloten"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1132
+msgid "New Password Required"
+msgstr "Nieuw wachtwoord vereist"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1133
+msgid "New password required for secure storage"
+msgstr "Nieuw wachtwoord vereist voor beveiligde opslag"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1135
+#, c-format
+msgid ""
+"In order to prepare '%s' for storage of certificates or keys, a password is "
+"required"
+msgstr ""
+"Om ‘%s’ voor te bereiden voor de opslag van certificaten of sleutels, is een "
+"wachtwoord nodig."
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1249
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1280
+msgid "Change Password"
+msgstr "Wachtwoord wijzigen"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1250
+msgid "Original password for secure storage"
+msgstr "Oorspronkelijke wachtwoord voor beveiligde opslag"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1252
+#, c-format
+msgid "To change the password for '%s', the original password is required"
+msgstr ""
+"Om het wachtwoord voor ‘%s’ te wijzigingen is het oorspronkelijke wachtwoord "
+"nodig."
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1281
+msgid "Change password for secure storage"
+msgstr "Wachtwoord voor beveiligde opslag wijzigen"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1283
+#, c-format
+msgid "Type a new password for '%s'"
+msgstr "Kies een nieuw wachtwoord voor ‘%s’"
+
+#: ../tool/gkr-tool.c:102
+#, c-format
+msgid "usage: gnome-keyring command [options]\n"
+msgstr "gebruik: gnome-keyring opdracht [opties]\n"
+
+#: ../tool/gkr-tool.c:104
+msgid "commands: "
+msgstr "opdrachten: "
+
+#. Translators: keep same length as translated message "commands: "
+#: ../tool/gkr-tool.c:108
+msgid "          "
+msgstr "          "
+
+#~ msgid "Forget this password if idle for"
+#~ msgstr "Dit wachtwoord vergeten na inactiviteit van"
+
+#~ msgid "Forget this password after"
+#~ msgstr "Dit wachtwoord vergeten na"
+
+#~ msgid "Forget this password when I log out"
+#~ msgstr "Dit wachtwoord vergeten bij afmelden"
+
+#~ msgid "Use Unsafe Storage"
+#~ msgstr "Onveilige opslag gebruiken"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "Wachtwoorden komen niet overeen."
+
+#~ msgid "Password cannot be blank"
+#~ msgstr "Wachtwoord mag niet leeg zijn"
+
+#~ msgid "Keyring Access"
+#~ msgstr "Sleutelbostoegang"
+
+#~ msgid "Unlock access to passwords and other secrets"
+#~ msgstr "Toegang tot wachtwoorden en andere geheime informatie regelen"
+
+#~ msgid "New password strength"
+#~ msgstr "Sterkte van nieuw wachtwoord"
+
+#~ msgid "_Application:"
+#~ msgstr "_Toepassing:"
+
+#~ msgid "_Confirm:"
+#~ msgstr "_Bevestigen:"
+
+#~ msgid "_Details:"
+#~ msgstr "_Details:"
+
+#~ msgid "_Name:"
+#~ msgstr "_Naam:"
+
+#~ msgid "_Old Password:"
+#~ msgstr "_Oud wachtwoord:"
+
+#~ msgid "_Password:"
+#~ msgstr "_Wachtwoord:"

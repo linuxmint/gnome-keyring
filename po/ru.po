@@ -1,0 +1,576 @@
+# Copyright (C) 2004-2009, 2010 Free Software Foundation, Inc.
+#
+# Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2004.
+# Leonid Kanter <leon@asplinux.ru>, 2006.
+# Nickolay V. Shmyrev <nshmyrev@yandex.ru>, 2006.
+# Yuri Kozlov <kozlov.y@gmail.com>, 2008.
+# Lebedev Roman <roman@lebedev.com>, 2008.
+# der_FeniX <kofenix@gmail.com>, 2010.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011.
+# Stas Solovey <whats_up@tut.by>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-keyring trunk\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"keyring&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-03-08 19:47+0000\n"
+"PO-Revision-Date: 2014-08-29 14:36+0300\n"
+"Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
+"Language-Team: Russian <gnome-cyr@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.4\n"
+
+# Безымянная связка ключей
+#. TRANSLATORS: This is the label for an keyring created without a label
+#: ../daemon/dbus/gkd-secret-change.c:85
+#: ../daemon/dbus/gkd-secret-change.c:121
+#: ../daemon/dbus/gkd-secret-create.c:79
+#: ../pkcs11/secret-store/gkm-secret-collection.c:325
+#: ../pkcs11/wrap-layer/gkm-wrap-login.c:345
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:753
+msgid "Unnamed"
+msgstr "Безымянная"
+
+#: ../daemon/dbus/gkd-secret-change.c:90
+#, c-format
+msgid "Enter the old password for the '%s' keyring"
+msgstr "Введите старый пароль для связки ключей «%s»"
+
+#: ../daemon/dbus/gkd-secret-change.c:94
+#, c-format
+msgid ""
+"An application wants to change the password for the '%s' keyring. Enter the "
+"old password for it."
+msgstr ""
+"Приложение хочет изменить пароль для связки ключей «%s». Введите старый "
+"пароль."
+
+#: ../daemon/dbus/gkd-secret-change.c:100
+#: ../daemon/dbus/gkd-secret-change.c:136
+#: ../daemon/dbus/gkd-secret-change.c:146
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1143
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1255
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1290
+msgid "Continue"
+msgstr "Продолжить"
+
+#: ../daemon/dbus/gkd-secret-change.c:126
+#, c-format
+msgid "Choose a new password for the '%s' keyring"
+msgstr "Выберите новый пароль для связки ключей «%s»."
+
+#: ../daemon/dbus/gkd-secret-change.c:130
+#, c-format
+msgid ""
+"An application wants to change the password for the '%s' keyring. Choose the "
+"new password you want to use for it."
+msgstr ""
+"Приложение хочет изменить пароль для связки ключей «%s». Укажите новый "
+"пароль, который хотите использовать."
+
+#: ../daemon/dbus/gkd-secret-change.c:142
+#: ../daemon/dbus/gkd-secret-create.c:95
+msgid "Store passwords unencrypted?"
+msgstr "Хранить пароли незашифрованными?"
+
+#: ../daemon/dbus/gkd-secret-change.c:144
+#: ../daemon/dbus/gkd-secret-create.c:97
+msgid ""
+"By choosing to use a blank password, your stored passwords will not be "
+"safely encrypted. They will be accessible by anyone with access to your "
+"files."
+msgstr ""
+"Если ввести пустой пароль, то ваши хранимые пароли не будут надёжно "
+"зашифрованы. Они будут доступны любому, кто имеет доступ к вашим файлам."
+
+#: ../daemon/dbus/gkd-secret-change.c:152
+msgid "The original password was incorrect"
+msgstr "Неверный текущий пароль"
+
+#: ../daemon/dbus/gkd-secret-change.c:352
+msgid "Change Keyring Password"
+msgstr "Изменение пароля связки ключей"
+
+#: ../daemon/dbus/gkd-secret-create.c:81
+#, c-format
+msgid ""
+"An application wants to create a new keyring called '%s'. Choose the "
+"password you want to use for it."
+msgstr ""
+"Приложение хочет создать новую связку ключей с именем «%s». Необходимо "
+"выбрать пароль для этой связки ключей."
+
+#: ../daemon/dbus/gkd-secret-create.c:85
+msgid "Choose password for new keyring"
+msgstr "Выберите пароль для новой связки ключей"
+
+#: ../daemon/dbus/gkd-secret-create.c:308
+msgid "New Keyring Password"
+msgstr "Пароль для новой связки ключей"
+
+#: ../daemon/gnome-keyring-gpg.desktop.in.in.h:1
+msgid "GPG Password Agent"
+msgstr "Агент пароля GPG"
+
+#: ../daemon/gnome-keyring-gpg.desktop.in.in.h:2
+msgid "GNOME Keyring: GPG Agent"
+msgstr "Связка ключей GNOME: GPG-агент"
+
+#: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:1
+msgid "Certificate and Key Storage"
+msgstr "Хранилище сертификатов и ключей"
+
+#: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:2
+msgid "GNOME Keyring: PKCS#11 Component"
+msgstr "Связка ключей GNOME: компонент PKCS#11"
+
+#: ../daemon/gnome-keyring-secrets.desktop.in.in.h:1
+msgid "Secret Storage Service"
+msgstr "Служба безопасного хранения"
+
+#: ../daemon/gnome-keyring-secrets.desktop.in.in.h:2
+msgid "GNOME Keyring: Secret Service"
+msgstr "Связка ключей GNOME: служба безопасности"
+
+#: ../daemon/gnome-keyring-ssh.desktop.in.in.h:1
+msgid "SSH Key Agent"
+msgstr "Агент ключей SSH"
+
+#: ../daemon/gnome-keyring-ssh.desktop.in.in.h:2
+msgid "GNOME Keyring: SSH Agent"
+msgstr "Связка ключей GNOME: SSH-агент"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:106
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:203
+#, c-format
+msgid "PGP Key: %s"
+msgstr "Ключ PGP: %s"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:360
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:361
+msgid "Enter Passphrase"
+msgstr "Введите идентификационную фразу"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:365
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:602
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:630
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:645
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:721
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:767
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:799
+msgid "Unlock"
+msgstr "Разблокирование"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:394
+msgid "Automatically unlock this key, whenever I'm logged in"
+msgstr "Автоматически разблокировать этот ключ при входе в систему"
+
+#. TRANSLATORS: This is the display label for the login keyring
+#: ../daemon/login/gkd-login.c:145
+msgid "Login"
+msgstr "Вход"
+
+#: ../egg/dotlock.c:668
+#, c-format
+msgid "failed to create temporary file `%s': %s\n"
+msgstr "сбой при создании временного файла «%s»: %s\n"
+
+#: ../egg/dotlock.c:718
+#, c-format
+msgid "error writing to `%s': %s\n"
+msgstr "ошибка записи в «%s»: %s\n"
+
+#: ../egg/dotlock.c:782
+#, c-format
+msgid "can't create `%s': %s\n"
+msgstr "не удалось создать «%s»: %s\n"
+
+#. Note: It is unlikley that we get a race here unless a pid is
+#. reused too fast or a new process with the same pid as the one
+#. of the stale file tries to lock right at the same time as we.
+#: ../egg/dotlock.c:1048
+#, c-format
+msgid "removing stale lockfile (created by %d)\n"
+msgstr "удаление устаревшего файла блокировки (созданного %d)\n"
+
+#: ../egg/dotlock.c:1084
+#, c-format
+msgid "waiting for lock (held by %d%s) %s...\n"
+msgstr "ожидание блокировки (удерживается %d%s) %s…\n"
+
+#: ../egg/dotlock.c:1085
+msgid "(deadlock?) "
+msgstr "(взаимная блокировка?) "
+
+#: ../egg/dotlock.c:1124
+#, c-format
+msgid "lock `%s' not made: %s\n"
+msgstr "блокировка «%s» не выполнена: %s\n"
+
+#: ../egg/dotlock.c:1150
+#, c-format
+msgid "waiting for lock %s...\n"
+msgstr "ожидание блокировки %s…\n"
+
+#: ../egg/egg-oid.c:41
+msgid "Domain Component"
+msgstr "Область имён"
+
+#: ../egg/egg-oid.c:43
+msgid "User ID"
+msgstr "Идентификатор пользователя"
+
+#: ../egg/egg-oid.c:46
+msgid "Email Address"
+msgstr "Адрес эл. почты"
+
+#: ../egg/egg-oid.c:54
+msgid "Date of Birth"
+msgstr "Дата рождения"
+
+#: ../egg/egg-oid.c:56
+msgid "Place of Birth"
+msgstr "Место рождения"
+
+#: ../egg/egg-oid.c:58
+msgid "Gender"
+msgstr "Пол"
+
+#: ../egg/egg-oid.c:60
+msgid "Country of Citizenship"
+msgstr "Гражданство"
+
+#: ../egg/egg-oid.c:62
+msgid "Country of Residence"
+msgstr "Страна проживания"
+
+#: ../egg/egg-oid.c:65
+msgid "Common Name"
+msgstr "Общее имя"
+
+#: ../egg/egg-oid.c:67
+msgid "Surname"
+msgstr "Фамилия"
+
+#: ../egg/egg-oid.c:69
+msgid "Serial Number"
+msgstr "Серийный номер"
+
+#: ../egg/egg-oid.c:71
+msgid "Country"
+msgstr "Страна"
+
+#: ../egg/egg-oid.c:73
+msgid "Locality"
+msgstr "Местность"
+
+#: ../egg/egg-oid.c:75
+msgid "State"
+msgstr "Область"
+
+#: ../egg/egg-oid.c:77
+msgid "Street"
+msgstr "Улица"
+
+#: ../egg/egg-oid.c:79
+msgid "Organization"
+msgstr "Организация"
+
+#: ../egg/egg-oid.c:81
+msgid "Organizational Unit"
+msgstr "Подразделение"
+
+#: ../egg/egg-oid.c:83
+msgid "Title"
+msgstr "Название"
+
+#: ../egg/egg-oid.c:85
+msgid "Telephone Number"
+msgstr "Номер телефона"
+
+#: ../egg/egg-oid.c:87
+msgid "Given Name"
+msgstr "Имя"
+
+#: ../egg/egg-oid.c:89
+msgid "Initials"
+msgstr "Инициалы"
+
+#: ../egg/egg-oid.c:91
+msgid "Generation Qualifier"
+msgstr "Отметка поколения"
+
+#: ../egg/egg-oid.c:93
+msgid "DN Qualifier"
+msgstr "Отметка различительного имени"
+
+#: ../egg/egg-oid.c:95
+msgid "Pseudonym"
+msgstr "Псевдоним"
+
+#: ../egg/egg-oid.c:98
+msgid "RSA"
+msgstr "RSA"
+
+#: ../egg/egg-oid.c:99
+msgid "MD2 with RSA"
+msgstr "MD2 с RSA"
+
+#: ../egg/egg-oid.c:100
+msgid "MD5 with RSA"
+msgstr "MD5 с RSA"
+
+#: ../egg/egg-oid.c:101
+msgid "SHA1 with RSA"
+msgstr "SHA1 с RSA"
+
+#: ../egg/egg-oid.c:103
+msgid "DSA"
+msgstr "DSA"
+
+#: ../egg/egg-oid.c:104
+msgid "SHA1 with DSA"
+msgstr "SHA1 с DSA"
+
+#. Extended Key Usages
+#: ../egg/egg-oid.c:107
+msgid "Server Authentication"
+msgstr "Аутентификация сервера"
+
+#: ../egg/egg-oid.c:108
+msgid "Client Authentication"
+msgstr "Аутентификация клиента"
+
+#: ../egg/egg-oid.c:109
+msgid "Code Signing"
+msgstr "Подписывание кода"
+
+#: ../egg/egg-oid.c:110
+msgid "Email Protection"
+msgstr "Защита эл. почты"
+
+#: ../egg/egg-oid.c:111
+msgid "Time Stamping"
+msgstr "Проставление отметки времени"
+
+#: ../egg/egg-spawn.c:273
+#, c-format
+msgid "Unexpected error in select() reading data from a child process (%s)"
+msgstr ""
+"Неизвестная ошибка в select() при чтении данных из дочернего процесса (%s)"
+
+#: ../egg/egg-spawn.c:320
+#, c-format
+msgid "Unexpected error in waitpid() (%s)"
+msgstr "Неизвестная ошибка в waitpid() (%s)"
+
+#: ../pkcs11/gkm/gkm-certificate.c:572
+msgid "Unnamed Certificate"
+msgstr "Безымянный сертификат"
+
+#: ../pkcs11/ssh-store/gkm-ssh-private-key.c:339
+msgid "Couldn't parse public SSH key"
+msgstr "Не удалось разобрать открытый ключ SSH"
+
+#. Get the label ready
+#: ../pkcs11/wrap-layer/gkm-wrap-login.c:345
+#, c-format
+msgid "Unlock password for: %s"
+msgstr "Пароль для разблокирования: %s"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:590
+msgid "Unlock Login Keyring"
+msgstr "Разблокирование связки ключей для входа в систему"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:592
+msgid "Enter password to unlock your login keyring"
+msgstr "Введите пароль для разблокировки связки ключей для входа в систему"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:596
+msgid ""
+"The password you use to log in to your computer no longer matches that of "
+"your login keyring."
+msgstr ""
+"Пароль, который вы используете для входа, больше не соответствует паролю "
+"связки ключей для входа в систему"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:598
+msgid ""
+"The login keyring did not get unlocked when you logged into your computer."
+msgstr ""
+"Ваша связка ключей для входа в систему не была разблокирована, когда вы "
+"зарегистрировались в компьютере."
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:616
+msgid "Unlock Keyring"
+msgstr "Разблокирование связки ключей"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:618
+#, c-format
+msgid "Enter password for keyring '%s' to unlock"
+msgstr "Введите пароль для разблокирования связки ключей «%s»"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:622
+#, c-format
+msgid "An application wants access to the keyring '%s', but it is locked"
+msgstr ""
+"Приложение хочет получить доступ к связке ключей «%s», но она заблокирована"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:628
+msgid "Automatically unlock this keyring whenever I'm logged in"
+msgstr "Автоматически разблокировать эту связку ключей при входе в систему"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:639
+msgid "Unlock private key"
+msgstr "Разблокирование секретного ключа"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:641
+msgid "Unlock certificate"
+msgstr "Разблокирование сертификата"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:643
+msgid "Unlock public key"
+msgstr "Разблокирование открытого ключа"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:654
+msgid "Enter password to unlock the private key"
+msgstr "Введите пароль для разблокирования секретного ключа"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:656
+msgid "Enter password to unlock the certificate"
+msgstr "Введите пароль для разблокирования сертификата"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:658
+msgid "Enter password to unlock the public key"
+msgstr "Введите пароль для разблокирования открытого ключа"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:660
+msgid "Enter password to unlock"
+msgstr "Введите пароль для разблокирования"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:670
+msgid "Automatically unlock this key whenever I'm logged in"
+msgstr "Автоматически разблокировать этот ключ при входе в систему"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:672
+msgid "Automatically unlock this certificate whenever I'm logged in"
+msgstr "Автоматически разблокировать этот сертификат при входе в систему"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:674
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:796
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1140
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1288
+msgid "Automatically unlock whenever I'm logged in"
+msgstr "Автоматически разблокировать при входе в систему"
+
+#. TRANSLATORS: The private key is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:685
+#, c-format
+msgid "An application wants access to the private key '%s', but it is locked"
+msgstr ""
+"Приложение хочет получить доступ к секретному ключу «%s», но он заблокирован"
+
+#. TRANSLATORS: The certificate is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:688
+#, c-format
+msgid "An application wants access to the certificate '%s', but it is locked"
+msgstr ""
+"Приложение хочет получить доступ к сертификату «%s», но он заблокирован"
+
+#. TRANSLATORS: The public key is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:691
+#, c-format
+msgid "An application wants access to the public key '%s', but it is locked"
+msgstr ""
+"Приложение хочет получить доступ к открытому ключу «%s», но он заблокирован"
+
+#. TRANSLATORS: The object '%s' is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:694
+#, c-format
+msgid "An application wants access to '%s', but it is locked"
+msgstr "Приложение хочет получить доступ к «%s», но он заблокирован"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:765
+msgid "The unlock password was incorrect"
+msgstr "Неверный пароль разблокировки"
+
+#. Build up the prompt
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:786
+msgid "Unlock certificate/key storage"
+msgstr "Разблокировать хранилище сертификатов/ключей"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:787
+msgid "Enter password to unlock the certificate/key storage"
+msgstr "Введите пароль для разблокирования хранилища сертификатов/ключей"
+
+#. TRANSLATORS: The storage is locked, and needs unlocking before the application can use it.
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:790
+#, c-format
+msgid ""
+"An application wants access to the certificate/key storage '%s', but it is "
+"locked"
+msgstr ""
+"Приложение хочет получить доступ к хранилищу сертификатов/ключей «%s», но "
+"оно заблокировано"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1131
+msgid "New Password Required"
+msgstr "Требуется новый пароль"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1132
+msgid "New password required for secure storage"
+msgstr "Требуется новый пароль для хранилища"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1134
+#, c-format
+msgid ""
+"In order to prepare '%s' for storage of certificates or keys, a password is "
+"required"
+msgstr ""
+"Чтобы подготовить «%s» для хранения сертификатов и ключей необходимо задать "
+"пароль"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1248
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1279
+msgid "Change Password"
+msgstr "Изменить пароль"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1249
+msgid "Original password for secure storage"
+msgstr "Исходный пароль для хранилища"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1251
+#, c-format
+msgid "To change the password for '%s', the original password is required"
+msgstr "Чтобы изменить пароль для «%s», требуется текущий пароль"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1280
+msgid "Change password for secure storage"
+msgstr "Изменить пароль для хранилища"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1282
+#, c-format
+msgid "Type a new password for '%s'"
+msgstr "Введите новый пароль для «%s»"
+
+#: ../tool/gkr-tool.c:102
+#, c-format
+msgid "usage: gnome-keyring command [options]\n"
+msgstr "использование: gnome-keyring команда [параметры]\n"
+
+#: ../tool/gkr-tool.c:104
+msgid "commands: "
+msgstr "команды: "
+
+#. Translators: keep same length as translated message "commands: "
+#: ../tool/gkr-tool.c:108
+msgid "          "
+msgstr "          "

@@ -1,0 +1,574 @@
+# translation of gnome-keyring.master.kn.po to Kannada
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Shankar Prasad <svenkate@redhat.com>, 2008, 2009, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-keyring.master.kn\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"keyring&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-03-17 00:28+0000\n"
+"PO-Revision-Date: 2013-03-18 05:08-0400\n"
+"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+"Language-Team: Kannada <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: kn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Zanata 3.2.3\n"
+
+#. TRANSLATORS: This is the label for an keyring created without a label
+#: ../daemon/dbus/gkd-secret-change.c:86
+#: ../daemon/dbus/gkd-secret-change.c:122
+#: ../daemon/dbus/gkd-secret-create.c:79
+#: ../pkcs11/secret-store/gkm-secret-collection.c:325
+#: ../pkcs11/wrap-layer/gkm-wrap-login.c:346
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:754
+msgid "Unnamed"
+msgstr "ಹೆಸರಿಡದ"
+
+#: ../daemon/dbus/gkd-secret-change.c:91
+#, c-format
+msgid "Enter the old password for the '%s' keyring"
+msgstr "'%s' ಕೀಲಿಗೊಂಚಲಿಗಾಗಿ ಒಂದು ಹಳೆಯ ಗುಪ್ತಪದವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ."
+
+#: ../daemon/dbus/gkd-secret-change.c:95
+#, c-format
+msgid ""
+"An application wants to change the password for the '%s' keyring. Enter the "
+"old password for it."
+msgstr ""
+"ಒಂದು ಅಜ್ಞಾತ ಅನ್ವಯವು '%s' ಕೀಲಿಗೊಂಚಲಿನ ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸಲು ಬಯಸಿದೆ. ಅದರ ಹಳೆಯ "
+" ಗುಪ್ತಪದವನ್ನು ನಮೂದಿಸಿ."
+
+#: ../daemon/dbus/gkd-secret-change.c:101
+#: ../daemon/dbus/gkd-secret-change.c:137
+#: ../daemon/dbus/gkd-secret-change.c:148
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1144
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1256
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1291
+msgid "Continue"
+msgstr "ಮುಂದುವರೆ"
+
+#: ../daemon/dbus/gkd-secret-change.c:127
+#, c-format
+msgid "Choose a new password for the '%s' keyring"
+msgstr "'%s' ಕೀಲಿಗೊಂಚಲಿಗಾಗಿ ಒಂದು ಹೊಸ ಗುಪ್ತಪದವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ."
+
+#: ../daemon/dbus/gkd-secret-change.c:131
+#, c-format
+msgid ""
+"An application wants to change the password for the '%s' keyring. Choose the "
+"new password you want to use for it."
+msgstr ""
+"ಒಂದು ಅಜ್ಞಾತ ಅನ್ವಯವು '%s' ಕೀಲಿಗೊಂಚಲಿನ ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸಲು ಬಯಸಿದೆ. ಅದಕ್ಕಾಗಿ "
+"ನೀವು ಬಳಸಲು ಬಯಸುವ ಹೊಸ ಗುಪ್ತಪದವನ್ನು ಆರಿಸಿ."
+
+#: ../daemon/dbus/gkd-secret-change.c:144
+#: ../daemon/dbus/gkd-secret-create.c:95
+msgid "Store passwords unencrypted?"
+msgstr "ಗುಪ್ತಪದಗಳನ್ನು ಗೂಢಲಿಪೀಕರಿಸದೆ ಶೇಖರಿಸಿಡಬೇಕೆ?"
+
+#: ../daemon/dbus/gkd-secret-change.c:146
+#: ../daemon/dbus/gkd-secret-create.c:97
+msgid ""
+"By choosing to use a blank password, your stored passwords will not be "
+"safely encrypted. They will be accessible by anyone with access to your "
+"files."
+msgstr ""
+"ಒಂದು ಖಾಲಿ ಇರುವ ಗುಪ್ತಪದವನ್ನು ಬಳಸುವುದರಿಂದ, ಶೇಖರಿಸಲಾದ ನಿಮ್ಮ ಗುಪ್ತಪದಗಳು "
+"ಸುರಕ್ಷಿತವಾಗಿ ಗೂಢಲಿಪೀಕರಿಸಲ್ಪಡುವುದಿಲ್ಲ. ನಿಮ್ಮ ಕಡತಗಳನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವ ಯಾರೆ "
+"ಆದರೂ ಆ ಗುಪ್ತಪದಗಳನ್ನು ನೋಡಬಹುದಾಗಿದೆ."
+
+#: ../daemon/dbus/gkd-secret-change.c:154
+msgid "The original password was incorrect"
+msgstr "ಮೂಲ ಗುಪ್ತಪದವು ತಪ್ಪಾಗಿದೆ"
+
+#: ../daemon/dbus/gkd-secret-change.c:355
+msgid "Change Keyring Password"
+msgstr "ಕೀಲಿ ಗೊಂಚಲಿನ ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸಿ"
+
+#: ../daemon/dbus/gkd-secret-create.c:81
+#, c-format
+msgid ""
+"An application wants to create a new keyring called '%s'. Choose the "
+"password you want to use for it."
+msgstr ""
+"ಒಂದು ಅಜ್ಞಾತ ಅನ್ವಯವು '%s' ಎಂಬ ಹೆಸರಿನ ಒಂದು ಹೊಸ ಕೀಲಿ ಗೊಂಚಲನ್ನು ನಿರ್ಮಿಸಲು ಬಯಸಿದೆ."
+" ಅದಕ್ಕೆ ಬಳಸಲು ನೀವು ಒಂದು ಗುಪ್ತಪದವನ್ನು ಆರಿಸಬೇಕಾಗುತ್ತದೆ."
+
+#: ../daemon/dbus/gkd-secret-create.c:85
+msgid "Choose password for new keyring"
+msgstr "ಹೊಸ ಕೀಲಿಗೊಂಚಲಿಗಾಗಿ ಗುಪ್ತಪದವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+
+#: ../daemon/dbus/gkd-secret-create.c:312
+msgid "New Keyring Password"
+msgstr "ಹೊಸ ಕೀಲಿಗೊಂಚಲಿನ ಗುಪ್ತಪದ"
+
+#: ../daemon/gnome-keyring-gpg.desktop.in.in.h:1
+msgid "GPG Password Agent"
+msgstr "GPG ಗುಪ್ತಪದ ಮಧ್ಯವರ್ತಿ"
+
+#: ../daemon/gnome-keyring-gpg.desktop.in.in.h:2
+msgid "GNOME Keyring: GPG Agent"
+msgstr "GNOME ಕೀಲಿಗೊಂಚಲು: GPG ಮಧ್ಯವರ್ತಿ"
+
+#: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:1
+msgid "Certificate and Key Storage"
+msgstr "ಪ್ರಮಾಣಪತ್ರ ಮತ್ತು ಕೀಲಿಯ ಶೇಖರಣೆ"
+
+#: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:2
+msgid "GNOME Keyring: PKCS#11 Component"
+msgstr "GNOME ಕೀಲಿಗೊಂಚಲು: PKCS#11 ಘಟಕ"
+
+#: ../daemon/gnome-keyring-secrets.desktop.in.in.h:1
+msgid "Secret Storage Service"
+msgstr "ಸೀಕ್ರೆಟ್ ಶೇಖರಣಾ ಸೇವೆ"
+
+#: ../daemon/gnome-keyring-secrets.desktop.in.in.h:2
+msgid "GNOME Keyring: Secret Service"
+msgstr "GNOME ಕೀಲಿಗೊಂಚಲು: ಸೀಕ್ರೆಟ್ ಸೇವೆ"
+
+#: ../daemon/gnome-keyring-ssh.desktop.in.in.h:1
+msgid "SSH Key Agent"
+msgstr "SSH ಕೀಲಿ ಮಧ್ಯವರ್ತಿ"
+
+#: ../daemon/gnome-keyring-ssh.desktop.in.in.h:2
+msgid "GNOME Keyring: SSH Agent"
+msgstr "GNOME ಕೀಲಿಗೊಂಚಲು: SSH ಮಧ್ಯವರ್ತಿ"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:106
+msgid "Unknown"
+msgstr "ಗೊತ್ತಿರದ"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:203
+#, c-format
+msgid "PGP Key: %s"
+msgstr "PGP ಕೀಲಿ: %s"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:350
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:351
+msgid "Enter Passphrase"
+msgstr "ಗುಪ್ತವಾಕ್ಯಾಂಶವನ್ನು ನಮೂದಿಸಿ"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:355
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:603
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:631
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:646
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:722
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:768
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:800
+msgid "Unlock"
+msgstr "ಅನ್‌ಲಾಕ್ ಮಾಡು"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:384
+msgid "Automatically unlock this key, whenever I'm logged in"
+msgstr "ನಾನು ಪ್ರವೇಶಿಸಿದಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಈ ಕೀಲಿಯನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡು"
+
+#. TRANSLATORS: This is the display label for the login keyring
+#: ../daemon/login/gkd-login.c:145
+msgid "Login"
+msgstr "ಪ್ರವೇಶ"
+
+#: ../egg/dotlock.c:668
+#, c-format
+msgid "failed to create temporary file `%s': %s\n"
+msgstr "ತಾತ್ಕಾಲಿಕ ಕಡತ `%s' ಅನ್ನು ರಚಿಸಲು ವಿಫಲಗೊಂಡಿದೆ: %s\n"
+
+#: ../egg/dotlock.c:718
+#, c-format
+msgid "error writing to `%s': %s\n"
+msgstr "`%s' ಗೆ ಬರೆಯುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ: %s\n"
+
+#: ../egg/dotlock.c:782
+#, c-format
+msgid "can't create `%s': %s\n"
+msgstr "`%s' ಅನ್ನು ರಚಿಸಲಾಗಿಲ್ಲ: %s\n"
+
+#. Note: It is unlikley that we get a race here unless a pid is
+#. reused too fast or a new process with the same pid as the one
+#. of the stale file tries to lock right at the same time as we.
+#: ../egg/dotlock.c:1048
+#, c-format
+msgid "removing stale lockfile (created by %d)\n"
+msgstr "ಹಳತಾದ ಲಾಕ್‌ಕಡತವನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತಿದೆ (%d ಇಂದ ರಚಿಸಲಾಗಿದ್ದು)\n"
+
+#: ../egg/dotlock.c:1084
+#, c-format
+msgid "waiting for lock (held by %d%s) %s...\n"
+msgstr "ಲಾಕ್‌ಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ (%d%s ಇಂದ ಹಿಡಿದಿಡಲಾಗಿದೆ) %s...\n"
+
+#: ../egg/dotlock.c:1085
+msgid "(deadlock?) "
+msgstr "(ಕಗ್ಗಂಟು?) "
+
+#: ../egg/dotlock.c:1124
+#, c-format
+msgid "lock `%s' not made: %s\n"
+msgstr "ಲಾಕ್ `%s' ಅನ್ನು ಮಾಡಲಾಗಿಲ್ಲ: %s\n"
+
+#: ../egg/dotlock.c:1150
+#, c-format
+msgid "waiting for lock %s...\n"
+msgstr "%s ಲಾಕ್‌ಗಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ...\n"
+
+#: ../egg/egg-oid.c:41
+msgid "Domain Component"
+msgstr "ಡೊಮೈನಿನ ಘಟಕ"
+
+#: ../egg/egg-oid.c:43
+msgid "User ID"
+msgstr "ಬಳಕೆದಾರ ID"
+
+#: ../egg/egg-oid.c:46
+msgid "Email Address"
+msgstr "ವಿಅಂಚೆ ವಿಳಾಸ"
+
+#: ../egg/egg-oid.c:54
+msgid "Date of Birth"
+msgstr "ಹುಟ್ಟಿದ ದಿನಾಂಕ"
+
+#: ../egg/egg-oid.c:56
+msgid "Place of Birth"
+msgstr "ಹುಟ್ಟಿದ ಸ್ಥಳ"
+
+#: ../egg/egg-oid.c:58
+msgid "Gender"
+msgstr "ಲಿಂಗ"
+
+#: ../egg/egg-oid.c:60
+msgid "Country of Citizenship"
+msgstr "ನಾಗರೀಕತ್ವವನ್ನು ಹೊಂದಿದ ದೇಶ"
+
+#: ../egg/egg-oid.c:62
+msgid "Country of Residence"
+msgstr "ವಾಸವಾಗಿರುವ ದೇಶ"
+
+#: ../egg/egg-oid.c:65
+msgid "Common Name"
+msgstr "ಸಾಮಾನ್ಯ ಹೆಸರು"
+
+#: ../egg/egg-oid.c:67
+msgid "Surname"
+msgstr "ಉಪನಾಮ"
+
+#: ../egg/egg-oid.c:69
+msgid "Serial Number"
+msgstr "ಅನುಕ್ರಮ ಸಂಖ್ಯೆ"
+
+#: ../egg/egg-oid.c:71
+msgid "Country"
+msgstr "ದೇಶ"
+
+#: ../egg/egg-oid.c:73
+msgid "Locality"
+msgstr "ಪ್ರದೇಶ"
+
+#: ../egg/egg-oid.c:75
+msgid "State"
+msgstr "ರಾಜ್ಯ"
+
+#: ../egg/egg-oid.c:77
+msgid "Street"
+msgstr "ಬೀದಿ"
+
+#: ../egg/egg-oid.c:79
+msgid "Organization"
+msgstr "ಸಂಸ್ಥೆ"
+
+#: ../egg/egg-oid.c:81
+msgid "Organizational Unit"
+msgstr "ಸಂಸ್ಥೆಯ ಘಟಕ"
+
+#: ../egg/egg-oid.c:83
+msgid "Title"
+msgstr "ಶೀರ್ಷಿಕೆ"
+
+#: ../egg/egg-oid.c:85
+msgid "Telephone Number"
+msgstr "ದೂರವಾಣಿ ಸಂಖ್ಯೆ"
+
+#: ../egg/egg-oid.c:87
+msgid "Given Name"
+msgstr "ಒದಗಿಸಲಾದ ಹೆಸರು"
+
+#: ../egg/egg-oid.c:89
+msgid "Initials"
+msgstr "ಇನಿಶಿಯಲ್‌ಗಳು"
+
+#: ../egg/egg-oid.c:91
+msgid "Generation Qualifier"
+msgstr "ಕ್ವಾಲಿಫಯರ್ ಅನ್ನು ಉತ್ಪಾದಿಸಲಾಗುತ್ತಿದೆ"
+
+#: ../egg/egg-oid.c:93
+msgid "DN Qualifier"
+msgstr "DN ಕ್ವಾಲಿಫಯರ್"
+
+#: ../egg/egg-oid.c:95
+msgid "Pseudonym"
+msgstr "ಗುಪ್ತನಾಮ"
+
+#: ../egg/egg-oid.c:98
+msgid "RSA"
+msgstr "RSA"
+
+#: ../egg/egg-oid.c:99
+msgid "MD2 with RSA"
+msgstr "RSA ಯೊಂದಿಗಿನ MD2"
+
+#: ../egg/egg-oid.c:100
+msgid "MD5 with RSA"
+msgstr "RSA ಯೊಂದಿಗಿನ MD5"
+
+#: ../egg/egg-oid.c:101
+msgid "SHA1 with RSA"
+msgstr "RSA ಯೊಂದಿಗಿನ SHA1"
+
+#: ../egg/egg-oid.c:103
+msgid "DSA"
+msgstr "DSA"
+
+#: ../egg/egg-oid.c:104
+msgid "SHA1 with DSA"
+msgstr "DSA ಯೊಂದಿಗಿನ SHA1"
+
+#. Extended Key Usages
+#: ../egg/egg-oid.c:107
+msgid "Server Authentication"
+msgstr "ಪೂರೈಕೆಗಣಕದ ದೃಢೀಕರಣ"
+
+#: ../egg/egg-oid.c:108
+msgid "Client Authentication"
+msgstr "ಕ್ಲೈಂಟ್ ದೃಢೀಕರಣ"
+
+#: ../egg/egg-oid.c:109
+msgid "Code Signing"
+msgstr "ಕೋಡ್ ಸೈನಿಂಗ್"
+
+#: ../egg/egg-oid.c:110
+msgid "Email Protection"
+msgstr "ವಿಅಂಚೆ ಸಂರಕ್ಷಣೆ"
+
+#: ../egg/egg-oid.c:111
+msgid "Time Stamping"
+msgstr "ಸಮಯಮುದ್ರೆ ನೀಡಿಕೆ"
+
+#: ../egg/egg-spawn.c:273
+#, c-format
+msgid "Unexpected error in select() reading data from a child process (%s)"
+msgstr ""
+"ಉಪ ಪ್ರಕ್ರಿಯೆಯಿಂದ (%s) ದತ್ತಾಂಶವನ್ನು ಓದುವಾಗ select() ನಲ್ಲಿ ಅನಪೇಕ್ಷಿತ ದೋಷ"
+
+#: ../egg/egg-spawn.c:320
+#, c-format
+msgid "Unexpected error in waitpid() (%s)"
+msgstr "waitpid() ನಲ್ಲಿ ಅನಪೇಕ್ಷಿತ ದೋಷ (%s)"
+
+#: ../pkcs11/gkm/gkm-certificate.c:581
+msgid "Unnamed Certificate"
+msgstr "ಹೆಸರಿಲ್ಲದ ಪ್ರಮಾಣಪತ್ರ"
+
+#: ../pkcs11/ssh-store/gkm-ssh-private-key.c:342
+msgid "Couldn't parse public SSH key"
+msgstr "ಸಾರ್ವಜನಿಕ SSH ಕೀಲಿಯನ್ನು ಪಾರ್ಸ್ ಮಾಡಲಾಗಿಲ್ಲ"
+
+#. Get the label ready
+#: ../pkcs11/wrap-layer/gkm-wrap-login.c:346
+#, c-format
+msgid "Unlock password for: %s"
+msgstr "ಇದಕ್ಕಾಗಿ ಗುಪ್ತಪದವನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡು: %s"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:591
+msgid "Unlock Login Keyring"
+msgstr "ಪ್ರವೇಶ ಕೀಲಿಗೊಂಚಲನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡು"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:593
+msgid "Enter password to unlock your login keyring"
+msgstr "ನಿಮ್ಮ ಪ್ರವೇಶ ಕೀಲಿಗೊಂಚಲನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಗುಪ್ತಪದವನ್ನು ನಮೂದಿಸಿ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:597
+msgid ""
+"The password you use to log in to your computer no longer matches that of "
+"your login keyring."
+msgstr ""
+"ನಿಮ್ಮ ಗಣಕಕ್ಕೆ ಪ್ರವೇಶಿಸಲು ನೀವು ಬಳಸಲು ಗುಪ್ತಪದವು ನಿಮ್ಮ ಪ್ರವೇಶ ಕೀಲಿಗೊಂಚಲಿನದಕ್ಕೆ "
+"ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ."
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:599
+msgid ""
+"The login keyring did not get unlocked when you logged into your computer."
+msgstr ""
+"ನೀವು ನಿಮ್ಮ ಗಣಕಕ್ಕೆ ಪ್ರವೇಶಿಸಿದಾಗ ಪ್ರವೇಶ ಕೀಲಿಗೊಂಚಲು ತಾನಾಗಿಯೆ ಅನ್‌ಲಾಕ್ ಆಗಲಿಲ್ಲ."
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:617
+msgid "Unlock Keyring"
+msgstr "ಕೀಲಿಗೊಂಚಲನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡು"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:619
+#, c-format
+msgid "Enter password for keyring '%s' to unlock"
+msgstr "'%s' ಕೀಲಿಗೊಂಚಲಿಗಾಗಿನ ಗುಪ್ತಪದವನ್ನು ನಮೂದಿಸಿ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:623
+#, c-format
+msgid "An application wants access to the keyring '%s', but it is locked"
+msgstr ""
+"ಒಂದು ಅನ್ವಯವು '%s' ಕೀಲಿಗೊಂಚಲನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಬಯಸಿದೆ, ಆದರೆ ಅದನ್ನು ಲಾಕ್‌ "
+"ಮಾಡಲಾಗಿದೆ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:629
+msgid "Automatically unlock this keyring whenever I'm logged in"
+msgstr "ನಾನು ಪ್ರವೇಶಿಸಿದಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಈ ಕೀಲಿಗೊಂಚಲನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡು"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:640
+msgid "Unlock private key"
+msgstr "ಖಾಸಗಿ ಕೀಲಿಯನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡು"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:642
+msgid "Unlock certificate"
+msgstr "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡು"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:644
+msgid "Unlock public key"
+msgstr "ಸಾರ್ವಜನಿಕ ಕೀಲಿಯನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡು"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:655
+msgid "Enter password to unlock the private key"
+msgstr "ಖಾಸಗಿ ಕೀಲಿಯನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಗುಪ್ತಪದವನ್ನು ನಮೂದಿಸಿ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:657
+msgid "Enter password to unlock the certificate"
+msgstr "ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಗುಪ್ತಪದವನ್ನು ನಮೂದಿಸಿ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:659
+msgid "Enter password to unlock the public key"
+msgstr "ಸಾರ್ವಜನಿಕ ಕೀಲಿಯನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಗುಪ್ತಪದವನ್ನು ನಮೂದಿಸಿ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:661
+msgid "Enter password to unlock"
+msgstr "ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಗುಪ್ತಪದವನ್ನು ನಮೂದಿಸಿ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:671
+msgid "Automatically unlock this key whenever I'm logged in"
+msgstr "ನಾನು ಪ್ರವೇಶಿಸಿದಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಈ ಕೀಲಿಯನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡು"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:673
+msgid "Automatically unlock this certificate whenever I'm logged in"
+msgstr "ನಾನು ಪ್ರವೇಶಿಸಿದಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಈ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡು"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:675
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:797
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1141
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1289
+msgid "Automatically unlock whenever I'm logged in"
+msgstr "ನಾನು ಪ್ರವೇಶಿಸಿದಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅನ್‌ಲಾಕ್ ಮಾಡು"
+
+#. TRANSLATORS: The private key is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:686
+#, c-format
+msgid "An application wants access to the private key '%s', but it is locked"
+msgstr ""
+"ಒಂದು ಅನ್ವಯವು ಖಾಸಗಿ ಕೀಲಿ '%s' ಅನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಬಯಸಿದೆ, ಆದರೆ ಅದನ್ನು ಲಾಕ್‌ "
+"ಮಾಡಲಾಗಿದೆ"
+
+#. TRANSLATORS: The certificate is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:689
+#, c-format
+msgid "An application wants access to the certificate '%s', but it is locked"
+msgstr ""
+"ಒಂದು ಪ್ರಮಾಣಪತ್ರ '%s' ಅನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಬಯಸಿದೆ, ಆದರೆ ಅದನ್ನು ಲಾಕ್‌ "
+"ಮಾಡಲಾಗಿದೆ"
+
+#. TRANSLATORS: The public key is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:692
+#, c-format
+msgid "An application wants access to the public key '%s', but it is locked"
+msgstr ""
+"ಒಂದು ಅನ್ವಯವು ಸಾರ್ವಜನಿಕ ಕೀಲಿ '%s' ಅನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಬಯಸಿದೆ, ಆದರೆ ಅದನ್ನು "
+"ಲಾಕ್‌ ಮಾಡಲಾಗಿದೆ"
+
+#. TRANSLATORS: The object '%s' is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:695
+#, c-format
+msgid "An application wants access to '%s', but it is locked"
+msgstr ""
+"ಒಂದು ಅನ್ವಯವು '%s' ಅನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಬಯಸಿದೆ, ಆದರೆ ಅದನ್ನು ಲಾಕ್‌ ಮಾಡಲಾಗಿದೆ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:766
+msgid "The unlock password was incorrect"
+msgstr "ಅನ್‌ಲಾಕ್ ಮಾಡುವ ಗುಪ್ತಪದವು ತಪ್ಪಾಗಿದೆ"
+
+#. Build up the prompt
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:787
+msgid "Unlock certificate/key storage"
+msgstr "ಪ್ರಮಾಣಪತ್ರವನ್ನು/ಕೀಲಿಯನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡು"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:788
+msgid "Enter password to unlock the certificate/key storage"
+msgstr "ಪ್ರಮಾಣಪತ್ರ/ಕೀಲಿ ಶೇಖರಣೆಯನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಗುಪ್ತಪದವನ್ನು ನಮೂದಿಸಿ"
+
+#. TRANSLATORS: The storage is locked, and needs unlocking before the application can use it.
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:791
+#, c-format
+msgid ""
+"An application wants access to the certificate/key storage '%s', but it is "
+"locked"
+msgstr ""
+"ಒಂದು ಅನ್ವಯವು ಪ್ರಮಾಣಪತ್ರ/ಕೀಲಿ ಶೇಖರಣೆ '%s' ಅನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಬಯಸಿದೆ, ಆದರೆ "
+"ಅದನ್ನು ಲಾಕ್‌ ಮಾಡಲಾಗಿದೆ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1132
+msgid "New Password Required"
+msgstr "ಹೊಸ ಗುಪ್ತಪದದ ಅಗತ್ಯವಿದೆ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1133
+msgid "New password required for secure storage"
+msgstr "ಸುರಕ್ಷಿತ ಶೇಖರಣೆಗಾಗಿ ಒಂದು ಗುಪ್ತಪದದ ಅಗತ್ಯವಿದೆ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1135
+#, c-format
+msgid ""
+"In order to prepare '%s' for storage of certificates or keys, a password is "
+"required"
+msgstr ""
+"'%s' ಅನ್ನು ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು ಅಥವ ಕೀಲಿಗಳನ್ನು ಶೇಖರಿಸಿಡಲು ಸಿದ್ಧಗೊಳಿಸಲು, ಒಂದು "
+"ಗುಪ್ತಪದದ ಅಗತ್ಯವಿರುತ್ತದೆ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1249
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1280
+msgid "Change Password"
+msgstr "ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸು"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1250
+msgid "Original password for secure storage"
+msgstr "ಸುರಕ್ಷಿತ ಶೇಖರಣೆಗಾಗಿನ ಮೂಲ ಗುಪ್ತಪದ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1252
+#, c-format
+msgid "To change the password for '%s', the original password is required"
+msgstr "'%s' ಎಂಬುದಕ್ಕಾಗಿನ ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸಲು, ಮೂಲ ಗುಪ್ತಪದದ ಅಗತ್ಯವಿದೆ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1281
+msgid "Change password for secure storage"
+msgstr "ಸುರಕ್ಷಿತ ಶೇಖರಣೆಗಾಗಿನ ಮೂಲ ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸಿ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1283
+#, c-format
+msgid "Type a new password for '%s'"
+msgstr "'%s' ಗಾಗಿ ಒಂದು ಹೊಸ ಗುಪ್ತಪದವನ್ನು ನಮೂದಿಸಿ"
+
+#: ../tool/gkr-tool.c:102
+#, c-format
+msgid "usage: gnome-keyring command [options]\n"
+msgstr "ಬಳಕೆ: gnome-keyring command [ಆಯ್ಕೆಗಳು]\n"
+
+#: ../tool/gkr-tool.c:104
+msgid "commands: "
+msgstr "ಆದೇಶಗಳು: "
+
+#. Translators: keep same length as translated message "commands: "
+#: ../tool/gkr-tool.c:108
+msgid "          "
+msgstr "          "

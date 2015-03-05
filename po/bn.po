@@ -1,0 +1,524 @@
+# Bengali translation for gnome-keyring
+# This file is distributed under the same license as the gnome-keyring package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Runa Bhattacharjee <runa@bengalinux.org>, 2004.
+# Runa Bhattacharjee <runabh@gmail.com>, 2007.
+# Runa Bhattacharjee <runab@redhat.com>, 2008, 2009.
+# Maruf Ovee <maruf@ankur.org.bd>, 2009.
+# Loba Yeasmeen <loba@ankur.org.bd>, 2010.
+# Israt Jahan <israt@ankur.org.bd>, 2010.
+# Zenat Rahnuma <zenat@ankur.org.bd>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: bn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-06 12:59+0200\n"
+"PO-Revision-Date: 2011-03-30 14:35+0600\n"
+"Last-Translator: Zenat Rahnuma <zenat@ankur.org.bd>\n"
+"Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+"X-Language: bn_BD\n"
+
+#. TRANSLATORS: This is the label for an keyring created without a label
+#: ../daemon/dbus/gkd-secret-change.c:78 ../daemon/dbus/gkd-secret-create.c:79
+#: ../pkcs11/secret-store/gkm-secret-collection.c:325
+#: ../pkcs11/wrap-layer/gkm-wrap-login.c:345
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:789
+msgid "Unnamed"
+msgstr "নামবিহীন"
+
+#: ../daemon/dbus/gkd-secret-change.c:86
+msgid "Change Keyring Password"
+msgstr "কী রিং এর পাসওয়ার্ড পরিবর্তন"
+
+#: ../daemon/dbus/gkd-secret-change.c:88
+#, c-format
+msgid "Choose a new password for the '%s' keyring"
+msgstr "'%s' কী রিং এর জন্য নতুন পাসওয়ার্ড নির্বাচন"
+
+#: ../daemon/dbus/gkd-secret-change.c:92
+#, c-format
+msgid ""
+"An application wants to change the password for the '%s' keyring. Choose the "
+"new password you want to use for it."
+msgstr ""
+"একটি অজানা অ্যাপ্লিকেশন '%s' কী রিং এর পাসওয়ার্ড পরিবর্তন করতে ইচ্ছুক। এতে "
+"ব্যবহারের জন্য পাসওয়ার্ড নির্বাচন করুন।"
+
+#: ../daemon/dbus/gkd-secret-change.c:111
+msgid "The original password was incorrect"
+msgstr "প্রকৃত পাসওয়ার্ডটি সঠিক নয়"
+
+#: ../daemon/dbus/gkd-secret-create.c:83
+msgid "New Keyring Password"
+msgstr "নতুন কী রিং পাসওয়ার্ড"
+
+#: ../daemon/dbus/gkd-secret-create.c:84
+msgid "Choose password for new keyring"
+msgstr "নতুন কী রিং এর জন্য পাসওয়ার্ড নির্বাচন"
+
+#: ../daemon/dbus/gkd-secret-create.c:86
+#, c-format
+msgid ""
+"An application wants to create a new keyring called '%s'. Choose the "
+"password you want to use for it."
+msgstr ""
+"একটি অ্যাপ্লিকেশন '%s' নামক একটি নতুন কী রিং তৈরি করতে ইচ্ছুক। এতে ব্যবহারের জন্য "
+"পাসওয়ার্ড নির্বাচন করুন।"
+
+#: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:1
+msgid "Certificate and Key Storage"
+msgstr "সার্টিফিকেট এবং কী স্টোরেজ"
+
+#: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:2
+msgid "GNOME Keyring: PKCS#11 Component"
+msgstr "GNOME কী রিং: PKCS#11 কম্পোনেন্ট"
+
+#: ../daemon/gnome-keyring-secrets.desktop.in.in.h:1
+msgid "GNOME Keyring: Secret Service"
+msgstr "GNOME কী রিং: গোপন সার্ভিস"
+
+#: ../daemon/gnome-keyring-secrets.desktop.in.in.h:2
+msgid "Secret Storage Service"
+msgstr "গোপন সংরক্ষণ সম্পর্কিত সার্ভিস"
+
+#: ../daemon/gnome-keyring-ssh.desktop.in.in.h:1
+msgid "GNOME Keyring: SSH Agent"
+msgstr "GNOME কী রিং: SSH এজেন্ট"
+
+#: ../daemon/gnome-keyring-ssh.desktop.in.in.h:2
+msgid "SSH Key Agent"
+msgstr "SSH কী এজেন্ট"
+
+#: ../daemon/gnome-keyring-gpg.desktop.in.in.h:1
+msgid "GNOME Keyring: GPG Agent"
+msgstr "GNOME কীরিং: GPG এজেন্ট"
+
+#: ../daemon/gnome-keyring-gpg.desktop.in.in.h:2
+msgid "GPG Password Agent"
+msgstr "GPG পাসওয়ার্ড এজেন্ট"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:106
+msgid "Unknown"
+msgstr "অজানা"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:204
+#, c-format
+msgid "PGP Key: %s"
+msgstr "PGP কী: %s"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:356
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:357
+msgid "Enter Passphrase"
+msgstr "পাশফ্রেজ দিন"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:399
+msgid "Forget this password if idle for"
+msgstr "যদি এর জন্য নিষ্ক্রিয় থাকে তাহলে পাসওয়ার্ড মনে রাখা হবেনা"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:400
+msgid "Forget this password after"
+msgstr "এর পরে পাসওয়ার্ড মনে রাখা হবেনা"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:401
+msgid "Forget this password when I log out"
+msgstr "আমি লগআউট করার সময় পাসওয়ার্ড মনে রাখা হবেনা"
+
+#. TRANSLATORS: This is the display label for the login keyring
+#: ../daemon/login/gkd-login.c:149
+msgid "Login"
+msgstr "লগিন"
+
+#: ../egg/egg-oid.c:41
+msgid "Domain Component"
+msgstr "ডোমেইনের অংশবিশেষ"
+
+#: ../egg/egg-oid.c:43
+msgid "User ID"
+msgstr "ব্যবহারকারীর ID"
+
+#: ../egg/egg-oid.c:46
+msgid "Email Address"
+msgstr "ইমেইল ঠিকানা"
+
+#: ../egg/egg-oid.c:54
+msgid "Date of Birth"
+msgstr "জন্মদিন"
+
+#: ../egg/egg-oid.c:56
+msgid "Place of Birth"
+msgstr "জন্মস্থান"
+
+#: ../egg/egg-oid.c:58
+msgid "Gender"
+msgstr "লিঙ্গ"
+
+#: ../egg/egg-oid.c:60
+msgid "Country of Citizenship"
+msgstr "নাগরিকত্ব"
+
+#: ../egg/egg-oid.c:62
+msgid "Country of Residence"
+msgstr "বসবাসের দেশ"
+
+#: ../egg/egg-oid.c:65
+msgid "Common Name"
+msgstr "নাম"
+
+#: ../egg/egg-oid.c:67
+msgid "Surname"
+msgstr "পদবি"
+
+#: ../egg/egg-oid.c:69
+msgid "Serial Number"
+msgstr "ক্রমিক সংখ্যা"
+
+#: ../egg/egg-oid.c:71
+msgid "Country"
+msgstr "দেশ"
+
+#: ../egg/egg-oid.c:73
+msgid "Locality"
+msgstr "অঞ্চল"
+
+#: ../egg/egg-oid.c:75
+msgid "State"
+msgstr "প্রদেশ"
+
+#: ../egg/egg-oid.c:77
+msgid "Street"
+msgstr "রাস্তা"
+
+#: ../egg/egg-oid.c:79
+msgid "Organization"
+msgstr "প্রতিষ্ঠান"
+
+#: ../egg/egg-oid.c:81
+msgid "Organizational Unit"
+msgstr "প্রাতিষ্ঠানিক বিভাগ"
+
+#: ../egg/egg-oid.c:83
+msgid "Title"
+msgstr "পদ"
+
+#: ../egg/egg-oid.c:85
+msgid "Telephone Number"
+msgstr "টেলিফোন নম্বর"
+
+#: ../egg/egg-oid.c:87
+msgid "Given Name"
+msgstr "প্রদত্ত নাম"
+
+#: ../egg/egg-oid.c:89
+msgid "Initials"
+msgstr "অদ্যাক্ষর"
+
+#: ../egg/egg-oid.c:91
+msgid "Generation Qualifier"
+msgstr "উৎপাদনের যোগ্যতা নির্বাচনকারী"
+
+#: ../egg/egg-oid.c:93
+msgid "DN Qualifier"
+msgstr "DN যোগ্যতা নির্বাচনকারী"
+
+#: ../egg/egg-oid.c:95
+msgid "Pseudonym"
+msgstr "ছদ্মনাম"
+
+#: ../egg/egg-oid.c:98
+msgid "RSA"
+msgstr "RSA"
+
+#: ../egg/egg-oid.c:99
+msgid "MD2 with RSA"
+msgstr "RSA সহ MD2"
+
+#: ../egg/egg-oid.c:100
+msgid "MD5 with RSA"
+msgstr "RSA সহ MD5"
+
+#: ../egg/egg-oid.c:101
+msgid "SHA1 with RSA"
+msgstr "RSA সহ SHA1"
+
+#: ../egg/egg-oid.c:103
+msgid "DSA"
+msgstr "DSA"
+
+#: ../egg/egg-oid.c:104
+msgid "SHA1 with DSA"
+msgstr "DSA সহ SHA1"
+
+#. Extended Key Usages
+#: ../egg/egg-oid.c:107
+#, fuzzy
+msgid "Server Authentication"
+msgstr "SSL সার্ভার সার্টিফিকেট"
+
+#: ../egg/egg-oid.c:108
+#, fuzzy
+msgid "Client Authentication"
+msgstr "SSL ক্লায়েন্ট সার্টিফিকেট"
+
+#: ../egg/egg-oid.c:109
+msgid "Code Signing"
+msgstr ""
+
+#: ../egg/egg-oid.c:110
+msgid "Email Protection"
+msgstr ""
+
+#: ../egg/egg-oid.c:111
+msgid "Time Stamping"
+msgstr ""
+
+#: ../egg/egg-spawn.c:273
+#, c-format
+msgid "Unexpected error in select() reading data from a child process (%s)"
+msgstr "একটি চাইল্ড প্রসেস (%s) থেকে ডাটা রিড করতে নির্বাচন() এ অনাকাঙ্খিত ত্রুটি"
+
+#: ../egg/egg-spawn.c:320
+#, c-format
+msgid "Unexpected error in waitpid() (%s)"
+msgstr "waitpid() (%s) তে অনাকাঙ্খিত ত্রুটি"
+
+#: ../pkcs11/gkm/gkm-certificate.c:572
+msgid "Unnamed Certificate"
+msgstr "নামবিহীন সার্টিফিকেট"
+
+#: ../pkcs11/ssh-store/gkm-ssh-private-key.c:339
+msgid "Couldn't parse public SSH key"
+msgstr "পাবলিক SSH কী পার্স করা যায়নি"
+
+#. Get the label ready
+#: ../pkcs11/wrap-layer/gkm-wrap-login.c:345
+#, c-format
+msgid "Unlock password for: %s"
+msgstr "আন-লক করতে ব্যবহৃত পাসওয়ার্ড: %s"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:90
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:801
+msgid "The unlock password was incorrect"
+msgstr "আনলক করার পাসওয়ার্ড সঠিক নয়"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:634
+msgid "Unlock Login Keyring"
+msgstr "কী-রিং আনলক"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:636
+msgid "Enter password to unlock your login keyring"
+msgstr "লগিন কী-রিং আন-লক করতে আপনার পাসওয়ার্ড লিখুন"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:640
+msgid ""
+"The password you use to log in to your computer no longer matches that of "
+"your login keyring."
+msgstr ""
+"কম্পিউটারে লগইনের জন্য যে পাসওয়ার্ডটি দিয়েছেন তা আপনার লগিন কী-রিং এর সাথে মিলে "
+"না।"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:642
+msgid ""
+"The login keyring did not get unlocked when you logged into your computer."
+msgstr ""
+"এই কম্পিউটারে লগইন করার সময়, আপনার লগইন কী-রিং স্বয়ংক্রিয়ভাবে আন-লক করা হয়নি।"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:660
+msgid "Unlock Keyring"
+msgstr "কী-রিং আনলক"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:662
+#, c-format
+msgid "Enter password for keyring '%s' to unlock"
+msgstr "'%s' কী রিং আনলক করতে পাসওয়ার্ড লিখুন"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:666
+#, c-format
+msgid "An application wants access to the keyring '%s', but it is locked"
+msgstr "একটি অ্যাপ্লিকেশন %s কীরিং এ ব্যবহার করতে চাচ্ছে, কিন্তু তা বর্তমানে লক"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:686
+msgid "Unlock private key"
+msgstr "প্রাইভেট-কী আনলক"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:688
+msgid "Unlock certificate"
+msgstr "সার্টিফিকেট আনলক "
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:690
+msgid "Unlock public key"
+msgstr "পাবলিক কী আনলক"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:692
+msgid "Unlock"
+msgstr "আনলক"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:701
+msgid "Enter password to unlock the private key"
+msgstr "প্রাইভেট কী আনলক করতে পাসওয়ার্ড লিখুন"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:703
+msgid "Enter password to unlock the certificate"
+msgstr "সার্টিফিকেট আন-লক করার জন্য পাসওয়ার্ড লিখুন"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:705
+msgid "Enter password to unlock the public key"
+msgstr "পাবলিক কী আনলক করতে পাসওয়ার্ড লিখুন"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:707
+msgid "Enter password to unlock"
+msgstr "আনলক করতে পাসওয়ার্ড লিখুন"
+
+#. TRANSLATORS: The private key is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:717
+#, c-format
+msgid "An application wants access to the private key '%s', but it is locked"
+msgstr "একটি অ্যাপ্লিকেশন %s প্রাইভেট কী ব্যবহার করতে চাচ্ছে, কিন্তু বর্তমানে এটি লক"
+
+#. TRANSLATORS: The certificate is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:720
+#, c-format
+msgid "An application wants access to the certificate '%s', but it is locked"
+msgstr "একটি অ্যাপ্লিকেশন, %s সার্টিফিকেট ব্যবহার করতে ইচ্ছুক, কিন্তু বর্তমানে এটি লক"
+
+#. TRANSLATORS: The public key is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:723
+#, c-format
+msgid "An application wants access to the public key '%s', but it is locked"
+msgstr "একটি অ্যাপ্লিকেশন, %s পাবলিক-কী ব্যবহার করতে চাচ্ছে, কিন্তু বর্তমানে এটি লক"
+
+#. TRANSLATORS: The object '%s' is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:726
+#, c-format
+msgid "An application wants access to '%s', but it is locked"
+msgstr "একটি অ্যাপ্লিকেশন, %s ব্যবহার করতে চাচ্ছে, কিন্তু বর্তমানে এটি লক"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:822
+msgid "Unlock certificate/key storage"
+msgstr "সার্টিফিকেট/কী সংগ্রহস্থল আন-লক"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:823
+msgid "Enter password to unlock the certificate/key storage"
+msgstr "সার্টিফিকেট/কী সংগ্রহস্থল আন-লক করার জন্য পাসওয়ার্ড লিখুন"
+
+#. TRANSLATORS: The storage is locked, and needs unlocking before the application can use it.
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:826
+#, c-format
+msgid ""
+"An application wants access to the certificate/key storage '%s', but it is "
+"locked"
+msgstr ""
+"একটি অ্যাপ্লিকেশন, %s সার্টিফিকেট/কী সংগ্রহস্থল ব্যবহার করতে চাচ্ছে, কিন্তু বর্তমানে "
+"এটি লক"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1132
+msgid "New Password Required"
+msgstr "নতুন পাসওয়ার্ড আবশ্যক"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1133
+msgid "New password required for secure storage"
+msgstr "সংগ্রহস্থল নিরাপদ রাখতে পাসওয়ার্ড দেওয়া আবশ্যক"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1135
+#, c-format
+msgid ""
+"In order to prepare '%s' for storage of certificates or keys, a password is "
+"required"
+msgstr ""
+"সার্টিফিকেট অথবা কী সংগ্রহস্থলের জন্য '%s' প্রস্তুত করার উদ্দেশ্যে একটি পাসওয়ার্ড "
+"দেওয়া আবশ্যক"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1258
+msgid "Change Password"
+msgstr "কী এর পাসওয়ার্ড পরিবর্তন"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1259
+msgid "Change password for secure storage"
+msgstr "সংগ্রহস্থল নিরাপদ রাখতে পাসওয়ার্ড দেওয়া আবশ্যক"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1261
+#, c-format
+msgid ""
+"To change the password for '%s', the original and new passwords are required"
+msgstr " '%s' এর জন্য পাসওয়ার্ড পরিবর্তন করতে, মূল এবং নতুন পাসওয়ার্ড আবশ্যক"
+
+#: ../tool/gkr-tool.c:102
+#, c-format
+msgid "usage: gnome-keyring command [options]\n"
+msgstr "ব্যবহারপ্রণালী: gnome কী রিং কমান্ড [options]\n"
+
+#: ../tool/gkr-tool.c:104
+msgid "commands: "
+msgstr "কমান্ড:"
+
+#. Translators: keep same length as translated message "commands: "
+#: ../tool/gkr-tool.c:108
+msgid "          "
+msgstr "        "
+
+#: ../ui/gku-prompt-tool.c:591
+msgid "Store passwords unencrypted?"
+msgstr "এনক্রিপশন ছাড়া পাসওয়ার্ড সংরক্ষণ করা হবে কি?"
+
+#: ../ui/gku-prompt-tool.c:592
+msgid ""
+"By choosing to use a blank password, your stored passwords will not be "
+"safely encrypted. They will be accessible by anyone with access to your "
+"files."
+msgstr ""
+"ফাঁকা পাসওয়ার্ড নির্বাচনের ফলে, আপনার সংরক্ষিত পাসওয়ার্ডগুলি নিরাপদভাবে এনক্রিপ্ট "
+"করা সম্ভব হবে না। আপনার ফাইলগুলো পড়তে অনুমোদিত যে কোনো ব্যবহারকারী দ্বারা এইগুলো "
+"প্রয়োগ করা সম্ভব হবে।"
+
+#: ../ui/gku-prompt-tool.c:599
+msgid "Use Unsafe Storage"
+msgstr "অনিরাপদ সংগ্রহস্থল ব্যবহার করা হবে"
+
+#: ../ui/gku-prompt-tool.c:639
+msgid "Passwords do not match."
+msgstr "পাসওয়ার্ডে গরমিল।"
+
+#: ../ui/gku-prompt-tool.c:649
+msgid "Password cannot be blank"
+msgstr "পাসওয়ার্ড ফাঁকা রাখা যাবে না"
+
+#: ../ui/gnome-keyring-prompt.desktop.in.in.h:1
+msgid "Keyring Access"
+msgstr "কী রিং এ প্রবেশাধিকার"
+
+#: ../ui/gnome-keyring-prompt.desktop.in.in.h:2
+msgid "Unlock access to passwords and other secrets"
+msgstr "পাসওয়ার্ডে ও অন্যান্য গোপনীয়তায় প্রবেশাধিকার আনলক"
+
+#: ../ui/gku-prompt.ui.h:1
+msgid "New password strength"
+msgstr "নতুন পাসওয়ার্ডের দৃঢ়তা"
+
+#: ../ui/gku-prompt.ui.h:2
+msgid "_Application:"
+msgstr "অ্যাপ্লিকেশন: (_A)"
+
+#: ../ui/gku-prompt.ui.h:3
+msgid "_Confirm:"
+msgstr "নিশ্চিত: (_C)"
+
+#: ../ui/gku-prompt.ui.h:4
+msgid "_Details:"
+msgstr "বিস্তারিত: (_D)"
+
+#: ../ui/gku-prompt.ui.h:5
+msgid "_Name:"
+msgstr "নাম: (_N)"
+
+#: ../ui/gku-prompt.ui.h:6
+msgid "_Old Password:"
+msgstr "পুরোনো পাসওয়ার্ড: (_O)"
+
+#: ../ui/gku-prompt.ui.h:7
+msgid "_Password:"
+msgstr "পাসওয়ার্ড: (_P)"

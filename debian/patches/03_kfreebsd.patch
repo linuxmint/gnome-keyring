@@ -1,0 +1,61 @@
+Index: gnome-keyring-3.8.2/egg/egg-unix-credentials.c
+===================================================================
+--- gnome-keyring-3.8.2.orig/egg/egg-unix-credentials.c	2013-06-15 22:42:24.555453525 +0200
++++ gnome-keyring-3.8.2/egg/egg-unix-credentials.c	2013-06-15 22:42:24.551453474 +0200
+@@ -48,6 +48,10 @@
+ #include <ucred.h>
+ #endif
+ 
++#if defined(__FreeBSD_kernel__)
++#include <sys/ucred.h>
++#endif
++
+ int
+ egg_unix_credentials_read (int sock, pid_t *pid, uid_t *uid)
+ {
+@@ -56,7 +60,7 @@
+ 	char buf;
+ 	int ret;
+ 	
+-#if defined(HAVE_CMSGCRED) || defined(LOCAL_CREDS)
++#if (defined(HAVE_CMSGCRED) || defined(LOCAL_CREDS)) && !defined(__FreeBSD_kernel__)
+ 	/* Prefer CMSGCRED over LOCAL_CREDS because the former provides the
+ 	 * remote PID. */
+ #if defined(HAVE_CMSGCRED)
+@@ -84,7 +88,7 @@
+ 	msg.msg_iov = &iov;
+ 	msg.msg_iovlen = 1;
+ 	
+-#if defined(HAVE_CMSGCRED) || defined(LOCAL_CREDS)
++#if (defined(HAVE_CMSGCRED) || defined(LOCAL_CREDS)) && !defined(__FreeBSD_kernel__)
+ 	memset (&cmsg, 0, sizeof (cmsg));
+ 	msg.msg_control = (caddr_t) &cmsg;
+ 	msg.msg_controllen = CMSG_SPACE(sizeof *cred);
+@@ -108,7 +112,7 @@
+ 		return -1;
+ 	}
+ 
+-#if defined(HAVE_CMSGCRED) || defined(LOCAL_CREDS)
++#if (defined(HAVE_CMSGCRED) || defined(LOCAL_CREDS)) && !defined(__FreeBSD_kernel__)
+ 	if (cmsg.hdr.cmsg_len < CMSG_LEN (sizeof *cred) ||
+ 	    cmsg.hdr.cmsg_type != SCM_CREDS) {
+ 		fprintf (stderr, "message from recvmsg() was not SCM_CREDS\n");
+@@ -132,6 +136,18 @@
+ 		} else {
+ 			fprintf (stderr, "failed to getsockopt() credentials, returned len %d/%d\n",
+ 				     cr_len, (int) sizeof (cr));
++			return -1;
++		}
++#elif defined(LOCAL_PEERCRED) /* GNU/kFreeBSD */
++		struct xucred cr;
++		socklen_t cr_len = sizeof(cr);
++		*pid = 0;
++		
++		if (getsockopt (sock, 0, LOCAL_PEERCRED, &cr, &cr_len) == 0) {
++			*uid = cr.cr_uid;
++		} else {
++			fprintf (stderr, "failed to getsockopt() credentials, returned len %d/%d\n",
++				     cr_len, (int) sizeof (cr));
+ 			return -1;
+ 		}
+ #elif defined(HAVE_CMSGCRED)

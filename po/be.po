@@ -1,0 +1,566 @@
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2007.
+# Yuri Matsuk <yuri@matsuk.net>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-keyring.master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"keyring&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-03-08 19:47+0000\n"
+"PO-Revision-Date: 2012-03-09 21:59+0300\n"
+"Last-Translator: Yuri Matsuk <yuri@matsuk.net>\n"
+"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: UTF-8\n"
+"Language: be\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+
+#. TRANSLATORS: This is the label for an keyring created without a label
+#: ../daemon/dbus/gkd-secret-change.c:85
+#: ../daemon/dbus/gkd-secret-change.c:121
+#: ../daemon/dbus/gkd-secret-create.c:79
+#: ../pkcs11/secret-store/gkm-secret-collection.c:325
+#: ../pkcs11/wrap-layer/gkm-wrap-login.c:345
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:753
+msgid "Unnamed"
+msgstr "Без назвы"
+
+#: ../daemon/dbus/gkd-secret-change.c:90
+#, c-format
+msgid "Enter the old password for the '%s' keyring"
+msgstr "Упішыце стары пароль для вязкі ключоў \"%s\""
+
+#: ../daemon/dbus/gkd-secret-change.c:94
+#, c-format
+msgid ""
+"An application wants to change the password for the '%s' keyring. Enter the "
+"old password for it."
+msgstr ""
+"Праграма хоча змяніць пароль для вязкі ключоў \"%s\". Упішыце стары пароль "
+"да яе."
+
+#: ../daemon/dbus/gkd-secret-change.c:100
+#: ../daemon/dbus/gkd-secret-change.c:136
+#: ../daemon/dbus/gkd-secret-change.c:146
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1143
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1255
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1290
+msgid "Continue"
+msgstr "Працягнуць"
+
+#: ../daemon/dbus/gkd-secret-change.c:126
+#, c-format
+msgid "Choose a new password for the '%s' keyring"
+msgstr "Выберыце новы пароль для вязкі ключоў \"%s\""
+
+#: ../daemon/dbus/gkd-secret-change.c:130
+#, c-format
+msgid ""
+"An application wants to change the password for the '%s' keyring. Choose the "
+"new password you want to use for it."
+msgstr ""
+"Праграма хоча змяніць пароль для вязкі ключоў \"%s\". Выберыце для яе новы "
+"пароль."
+
+#: ../daemon/dbus/gkd-secret-change.c:142
+#: ../daemon/dbus/gkd-secret-create.c:95
+msgid "Store passwords unencrypted?"
+msgstr "Захоўваць паролі незашыфраванымі?"
+
+#: ../daemon/dbus/gkd-secret-change.c:144
+#: ../daemon/dbus/gkd-secret-create.c:97
+msgid ""
+"By choosing to use a blank password, your stored passwords will not be "
+"safely encrypted. They will be accessible by anyone with access to your "
+"files."
+msgstr ""
+"Выбраўшы пусты пароль, вы не забяспечыце шыфраванне захаваных пароляў да "
+"разнастайных сэрвісаў. Доступ да гэтых пароляў зможа займець любы "
+"карыстальнік, які здолее прачытаць вашы файлы."
+
+#: ../daemon/dbus/gkd-secret-change.c:152
+msgid "The original password was incorrect"
+msgstr "Уведзены хібны арыгінальны пароль"
+
+#: ../daemon/dbus/gkd-secret-change.c:352
+msgid "Change Keyring Password"
+msgstr "Змяненне пароля да вязкі ключоў"
+
+#: ../daemon/dbus/gkd-secret-create.c:81
+#, c-format
+msgid ""
+"An application wants to create a new keyring called '%s'. Choose the "
+"password you want to use for it."
+msgstr ""
+"Праграма хоча стварыць новую вязку ключоў з назвай \"%s\". Выберыце для яе "
+"пароль."
+
+#: ../daemon/dbus/gkd-secret-create.c:85
+msgid "Choose password for new keyring"
+msgstr "Выберыце пароль да новай вязкі ключоў"
+
+#: ../daemon/dbus/gkd-secret-create.c:308
+msgid "New Keyring Password"
+msgstr "Новы пароль да вязкі ключоў"
+
+#: ../daemon/gnome-keyring-gpg.desktop.in.in.h:1
+msgid "GPG Password Agent"
+msgstr "GPG-агент пароляў"
+
+#: ../daemon/gnome-keyring-gpg.desktop.in.in.h:2
+msgid "GNOME Keyring: GPG Agent"
+msgstr "Вязкі ключоў GNOME: GPG-агент"
+
+#: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:1
+msgid "Certificate and Key Storage"
+msgstr "Сховішча сертыфікатаў і ключоў"
+
+#: ../daemon/gnome-keyring-pkcs11.desktop.in.in.h:2
+msgid "GNOME Keyring: PKCS#11 Component"
+msgstr "Вязкі ключоў GNOME: кампанент PKCS#11"
+
+#: ../daemon/gnome-keyring-secrets.desktop.in.in.h:1
+msgid "Secret Storage Service"
+msgstr "Служба сховішча для сакрэтаў"
+
+#: ../daemon/gnome-keyring-secrets.desktop.in.in.h:2
+msgid "GNOME Keyring: Secret Service"
+msgstr "Вязкі ключоў GNOME: служба сакрэтаў"
+
+#: ../daemon/gnome-keyring-ssh.desktop.in.in.h:1
+msgid "SSH Key Agent"
+msgstr "SSH-агент ключоў"
+
+#: ../daemon/gnome-keyring-ssh.desktop.in.in.h:2
+msgid "GNOME Keyring: SSH Agent"
+msgstr "Вязкі ключоў GNOME: SSH-агент"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:106
+msgid "Unknown"
+msgstr "Невядома"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:203
+#, c-format
+msgid "PGP Key: %s"
+msgstr "PGP-ключ: %s"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:360
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:361
+msgid "Enter Passphrase"
+msgstr "Увод парольнай фразы"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:365
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:602
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:630
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:645
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:721
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:767
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:799
+msgid "Unlock"
+msgstr "Разблакіраваць"
+
+#: ../daemon/gpg-agent/gkd-gpg-agent-ops.c:394
+msgid "Automatically unlock this key, whenever I'm logged in"
+msgstr "Аўтаматычна разблакіраваць гэты ключ, пакуль я ў сістэме"
+
+#. TRANSLATORS: This is the display label for the login keyring
+#: ../daemon/login/gkd-login.c:145
+msgid "Login"
+msgstr "Уваход"
+
+#: ../egg/dotlock.c:668
+#, c-format
+msgid "failed to create temporary file `%s': %s\n"
+msgstr "не ўдалося стварыць часовы файл \"%s\": %s\n"
+
+#: ../egg/dotlock.c:718
+#, c-format
+msgid "error writing to `%s': %s\n"
+msgstr "памылка запісу ў \"%s\": %s\n"
+
+#: ../egg/dotlock.c:782
+#, c-format
+msgid "can't create `%s': %s\n"
+msgstr "не ўдалося стварыць \"%s\": %s\n"
+
+#. Note: It is unlikley that we get a race here unless a pid is
+#. reused too fast or a new process with the same pid as the one
+#. of the stale file tries to lock right at the same time as we.
+#: ../egg/dotlock.c:1048
+#, c-format
+msgid "removing stale lockfile (created by %d)\n"
+msgstr "выдаленне састарэлага блок-файла (створаны працэсам %d)\n"
+
+#: ../egg/dotlock.c:1084
+#, c-format
+msgid "waiting for lock (held by %d%s) %s...\n"
+msgstr "чаканне блакіроўкі (утрымліваецца %d%s) %s...\n"
+
+#: ../egg/dotlock.c:1085
+msgid "(deadlock?) "
+msgstr "(тупік?) "
+
+#: ../egg/dotlock.c:1124
+#, c-format
+msgid "lock `%s' not made: %s\n"
+msgstr "блакіроўка \"%s\" не ўтворана: %s\n"
+
+#: ../egg/dotlock.c:1150
+#, c-format
+msgid "waiting for lock %s...\n"
+msgstr "чаканне блакіроўкі %s...\n"
+
+#: ../egg/egg-oid.c:41
+msgid "Domain Component"
+msgstr "Даменны складнік"
+
+#: ../egg/egg-oid.c:43
+msgid "User ID"
+msgstr "Ідэнтыфікатар карыстальніка"
+
+#: ../egg/egg-oid.c:46
+msgid "Email Address"
+msgstr "Адрас электроннай пошты"
+
+#: ../egg/egg-oid.c:54
+msgid "Date of Birth"
+msgstr "Дата нараджэння"
+
+#: ../egg/egg-oid.c:56
+msgid "Place of Birth"
+msgstr "Месца нараджэння"
+
+#: ../egg/egg-oid.c:58
+msgid "Gender"
+msgstr "Пол"
+
+#: ../egg/egg-oid.c:60
+msgid "Country of Citizenship"
+msgstr "Грамадзянства"
+
+#: ../egg/egg-oid.c:62
+msgid "Country of Residence"
+msgstr "Краіна пражывання"
+
+#: ../egg/egg-oid.c:65
+msgid "Common Name"
+msgstr "Агульнае імя"
+
+#: ../egg/egg-oid.c:67
+msgid "Surname"
+msgstr "Прозвішча"
+
+#: ../egg/egg-oid.c:69
+msgid "Serial Number"
+msgstr "Серыйны нумар"
+
+#: ../egg/egg-oid.c:71
+msgid "Country"
+msgstr "Краіна"
+
+#: ../egg/egg-oid.c:73
+msgid "Locality"
+msgstr "Мясцовасць"
+
+#: ../egg/egg-oid.c:75
+msgid "State"
+msgstr "Штат"
+
+#: ../egg/egg-oid.c:77
+msgid "Street"
+msgstr "Вуліца"
+
+#: ../egg/egg-oid.c:79
+msgid "Organization"
+msgstr "Установа"
+
+#: ../egg/egg-oid.c:81
+msgid "Organizational Unit"
+msgstr "Аддзел установы"
+
+#: ../egg/egg-oid.c:83
+msgid "Title"
+msgstr "Званне"
+
+#: ../egg/egg-oid.c:85
+msgid "Telephone Number"
+msgstr "Тэлефонны нумар"
+
+#: ../egg/egg-oid.c:87
+msgid "Given Name"
+msgstr "Імя"
+
+#: ../egg/egg-oid.c:89
+msgid "Initials"
+msgstr "Ініцыялы"
+
+#: ../egg/egg-oid.c:91
+msgid "Generation Qualifier"
+msgstr "Пазнака пакалення"
+
+#: ../egg/egg-oid.c:93
+msgid "DN Qualifier"
+msgstr "Пазнака DN"
+
+#: ../egg/egg-oid.c:95
+msgid "Pseudonym"
+msgstr "Псеўданім"
+
+#: ../egg/egg-oid.c:98
+msgid "RSA"
+msgstr "RSA"
+
+#: ../egg/egg-oid.c:99
+msgid "MD2 with RSA"
+msgstr "MD2 з RSA"
+
+#: ../egg/egg-oid.c:100
+msgid "MD5 with RSA"
+msgstr "MD5 з RSA"
+
+#: ../egg/egg-oid.c:101
+msgid "SHA1 with RSA"
+msgstr "SHA1 з RSA"
+
+#: ../egg/egg-oid.c:103
+msgid "DSA"
+msgstr "DSA"
+
+#: ../egg/egg-oid.c:104
+msgid "SHA1 with DSA"
+msgstr "SHA1 з DSA"
+
+#. Extended Key Usages
+#: ../egg/egg-oid.c:107
+msgid "Server Authentication"
+msgstr "Серверная ідэнтыфікацыя"
+
+#: ../egg/egg-oid.c:108
+msgid "Client Authentication"
+msgstr "Кліенцкая ідэнтыфікацыя"
+
+#: ../egg/egg-oid.c:109
+msgid "Code Signing"
+msgstr "Падпісванне коду"
+
+#: ../egg/egg-oid.c:110
+msgid "Email Protection"
+msgstr "Абарона для электроннай пошты"
+
+#: ../egg/egg-oid.c:111
+msgid "Time Stamping"
+msgstr "Часавыя меткі"
+
+#: ../egg/egg-spawn.c:273
+#, c-format
+msgid "Unexpected error in select() reading data from a child process (%s)"
+msgstr ""
+"Нечаканая памылка ў функцыі select() пры чытанні даных ад працэсу-нашчадка (%"
+"s)"
+
+#: ../egg/egg-spawn.c:320
+#, c-format
+msgid "Unexpected error in waitpid() (%s)"
+msgstr "Нечаканая памылка ў функцыі waitpid() (%s)"
+
+#: ../pkcs11/gkm/gkm-certificate.c:572
+msgid "Unnamed Certificate"
+msgstr "Сертыфікат без назвы"
+
+#: ../pkcs11/ssh-store/gkm-ssh-private-key.c:339
+msgid "Couldn't parse public SSH key"
+msgstr "Не ўдалося разабраць адкрыты SSH-ключ"
+
+#. Get the label ready
+#: ../pkcs11/wrap-layer/gkm-wrap-login.c:345
+#, c-format
+msgid "Unlock password for: %s"
+msgstr "Пароль для разблакіравання: %s"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:590
+msgid "Unlock Login Keyring"
+msgstr "Разблакіраванне сеансавай вязкі ключоў"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:592
+msgid "Enter password to unlock your login keyring"
+msgstr "Увядзіце пароль для разблакіравання сеансавай вязкі ключоў"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:596
+msgid ""
+"The password you use to log in to your computer no longer matches that of "
+"your login keyring."
+msgstr ""
+"Пароль для ўваходу ў сістэму ужо не адпавядае паролю да сеансавай вязкі "
+"ключоў."
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:598
+msgid ""
+"The login keyring did not get unlocked when you logged into your computer."
+msgstr "Сеансавая вязка ключоў не была разблакіравана пры ўваходзе ў сістэму."
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:616
+msgid "Unlock Keyring"
+msgstr "Разблакіраванне вязкі ключоў"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:618
+#, c-format
+msgid "Enter password for keyring '%s' to unlock"
+msgstr "Увядзіце пароль для разблакіравання вязкі ключоў \"%s\""
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:622
+#, c-format
+msgid "An application wants access to the keyring '%s', but it is locked"
+msgstr ""
+"Праграма патрабуе доступу да вязкі ключоў \"%s\", але яна заблакіравана"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:628
+msgid "Automatically unlock this keyring whenever I'm logged in"
+msgstr "Аўтаматычна разблакіраваць гэту вязку ключоў, пакуль я ў сістэме"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:639
+msgid "Unlock private key"
+msgstr "Разблакіраванне закрытага ключа"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:641
+msgid "Unlock certificate"
+msgstr "Разблакіраванне сертыфіката"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:643
+msgid "Unlock public key"
+msgstr "Разблакіраванне адкрытага ключа"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:654
+msgid "Enter password to unlock the private key"
+msgstr "Увядзіце пароль, каб разблакіраваць закрыты ключ"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:656
+msgid "Enter password to unlock the certificate"
+msgstr "Увядзіце пароль, каб разблакіраваць сертыфікат"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:658
+msgid "Enter password to unlock the public key"
+msgstr "Увядзіце пароль для разблакіравання адкрытага ключа"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:660
+msgid "Enter password to unlock"
+msgstr "Увядзіце пароль, каб разблакіраваць"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:670
+msgid "Automatically unlock this key whenever I'm logged in"
+msgstr "Аўтаматычна разблакіраваць гэты ключ, пакуль я ў сістэме"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:672
+msgid "Automatically unlock this certificate whenever I'm logged in"
+msgstr "Аўтаматычна разблакіраваць гэты сертыфікат, пакуль я ў сістэме"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:674
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:796
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1140
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1288
+msgid "Automatically unlock whenever I'm logged in"
+msgstr "Аўтаматычна разблакіраваць, пакуль я ў сістэме"
+
+#. TRANSLATORS: The private key is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:685
+#, c-format
+msgid "An application wants access to the private key '%s', but it is locked"
+msgstr ""
+"Праграма патрабуе доступу да закрытага ключа \"%s\", але ён заблакіраваны"
+
+#. TRANSLATORS: The certificate is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:688
+#, c-format
+msgid "An application wants access to the certificate '%s', but it is locked"
+msgstr "Праграма патрабуе доступу да сертыфіката \"%s\", але ён заблакіраваны"
+
+#. TRANSLATORS: The public key is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:691
+#, c-format
+msgid "An application wants access to the public key '%s', but it is locked"
+msgstr ""
+"Праграма патрабуе доступу да адкрытага ключа \"%s\", але ён заблакіраваны"
+
+#. TRANSLATORS: The object '%s' is locked
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:694
+#, c-format
+msgid "An application wants access to '%s', but it is locked"
+msgstr "Праграма патрабуе доступу да аб'екта \"%s\", але ён заблакіраваны"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:765
+msgid "The unlock password was incorrect"
+msgstr "Хібны пароль для разблакіравання"
+
+#. Build up the prompt
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:786
+msgid "Unlock certificate/key storage"
+msgstr "Разблакіраванне сховішча сертыфікатаў і ключоў"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:787
+msgid "Enter password to unlock the certificate/key storage"
+msgstr "Увядзіце пароль для разблакіравання сховішча сертыфікатаў і ключоў"
+
+#. TRANSLATORS: The storage is locked, and needs unlocking before the application can use it.
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:790
+#, c-format
+msgid ""
+"An application wants access to the certificate/key storage '%s', but it is "
+"locked"
+msgstr ""
+"Праграма патрабуе доступу да сховішча сертыфікатаў і ключоў \"%s\", але яно "
+"заблакіравана"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1131
+msgid "New Password Required"
+msgstr "Патрэбны новы пароль"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1132
+msgid "New password required for secure storage"
+msgstr "Для бяспечнага сховішча патрэбны новы пароль"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1134
+#, c-format
+msgid ""
+"In order to prepare '%s' for storage of certificates or keys, a password is "
+"required"
+msgstr ""
+"Каб падрыхтаваць \"%s\" для захавання сертыфікатаў і ключоў, патрэбны пароль"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1248
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1279
+msgid "Change Password"
+msgstr "Змяненне пароля"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1249
+msgid "Original password for secure storage"
+msgstr "Арыгінальны пароль да бяспечнага сховішча"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1251
+#, c-format
+msgid "To change the password for '%s', the original password is required"
+msgstr "Каб змяніць пароль да \"%s\", патрэбны арыгінальны пароль"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1280
+msgid "Change password for secure storage"
+msgstr "Змяненне пароля да бяспечнага сховішча"
+
+#: ../pkcs11/wrap-layer/gkm-wrap-prompt.c:1282
+#, c-format
+msgid "Type a new password for '%s'"
+msgstr "Упішыце новы пароль да \"%s\""
+
+#: ../tool/gkr-tool.c:102
+#, c-format
+msgid "usage: gnome-keyring command [options]\n"
+msgstr "Правілы карыстання: gnome-keyring загад [опцыі]\n"
+
+#: ../tool/gkr-tool.c:104
+msgid "commands: "
+msgstr "загады: "
+
+#. Translators: keep same length as translated message "commands: "
+#: ../tool/gkr-tool.c:108
+msgid "          "
+msgstr "        "
