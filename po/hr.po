@@ -490,7 +490,7 @@ msgstr "Otključajte pristup lozinkama i ostalim tajnama"
 
 #: ../ui/gku-prompt.ui.h:1
 msgid "New password strength"
-msgstr "Jačina nove lozinke"
+msgstr "Snaga nove lozinke"
 
 #: ../ui/gku-prompt.ui.h:2
 msgid "_Application:"
